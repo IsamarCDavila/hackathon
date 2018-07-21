@@ -411,7 +411,7 @@ class FrontController extends Controller
 
       $data = [
               'email_contacto' => $request->input('correo'),
-              'email_destino' => 'guribe@san-fernando.com.pe',
+              'email_destino' => 'isamar.dvgz@gmail.com',
               'name' => $request->input('nombre'),
               'apellidoP' => $request->input('apellidoP'),
               'ruc' => $request->input('ruc'),

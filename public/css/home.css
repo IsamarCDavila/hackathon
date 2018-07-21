@@ -21,6 +21,27 @@ p.trabajaestilo{
   color: #7b6852;
   padding-bottom: 49px;
 }
+.row_btn{
+  text-align: right;
+  margin-top: 5%;
+}
+.span_btn{
+    padding: 2% 15%;
+    border: 2px solid lightseagreen;
+    margin: 20%;
+    color: lightseagreen;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 15px;
+}
+.lineaProducto-title{
+  height: 156px;
+  text-align: center;
+}
+.lineaProductoCont .lineaProducto-title h1:after{
+  left: 15% !important;
+}
+
 @media (max-width: 767px) {
 .visibility_xs{
  display: none !important;

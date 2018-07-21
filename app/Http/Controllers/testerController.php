@@ -26,7 +26,7 @@ class testerController extends Controller
     {
       $data = [
               'email_contacto' => $request->input('correo'),
-              'email_destino' => 'gpoggi@san-fernando.com.pe',
+              'email_destino' => 'isamar.dvgz@gmail.com',
               'name' => $request->input('nombre'),
               'mensaje' => $request->input('mensaje'),
               'dni' => $request->input('dni'),
@@ -38,7 +38,7 @@ class testerController extends Controller
       });
 
       Mail::send('mail.demo_destino', $data, function ($message) use ($data) {
-          $message->to($data['email_destino'], $data['name'])->subject('Datos Formulario Contacto '.\Carbon\Carbon::now())->cc(['sshimabukuro@san-fernando.com.pe']);
+          $message->to($data['email_destino'], $data['name'])->subject('Datos Formulario Contacto '.\Carbon\Carbon::now())->cc(['idavila@apros.pe']);
       });
     }
 
@@ -46,7 +46,7 @@ class testerController extends Controller
     {
       $data = [
               'email_contacto' => $request->input('correo'),
-              'email_destino' => 'gpoggi@san-fernando.com.pe',
+              'email_destino' => 'isamar.dvgz@gmail.com',
               'name' => $request->input('nombre'),
               'mensaje' => $request->input('mensaje'),
               'dni' => $request->input('dni'),
@@ -58,14 +58,14 @@ class testerController extends Controller
       });
 
       Mail::send('mail.demo_destino', $data, function ($message) use ($data) {
-          $message->to($data['email_destino'], $data['name'])->subject('Datos Formulario ¿Quieres ser distribuidor? '.\Carbon\Carbon::now())->cc(['sshimabukuro@san-fernando.com.pe']);
+          $message->to($data['email_destino'], $data['name'])->subject('Datos Formulario ¿Quieres ser distribuidor? '.\Carbon\Carbon::now())->cc(['idavila@apros.pe']);
       });
     }
     public function envia_distribuidorR(Request $request)
     {
       $data = [
               'email_contacto' => $request->input('correo'),
-              'email_destino' => 'gpoggi@san-fernando.com.pe',
+              'email_destino' => 'isamar.dvgz@gmail.com',
               'name' => $request->input('nombre'),
               'mensaje' => $request->input('mensaje'),
               'dni' => $request->input('dni'),
@@ -77,7 +77,7 @@ class testerController extends Controller
       });
 
       Mail::send('mail.demo_destino', $data, function ($message) use ($data) {
-          $message->to($data['email_destino'], $data['name'])->subject('Datos Formulario ¿Quieres ser distribuidor? '.\Carbon\Carbon::now())->cc(['sshimabukuro@san-fernando.com.pe']);
+          $message->to($data['email_destino'], $data['name'])->subject('Datos Formulario ¿Quieres ser distribuidor? '.\Carbon\Carbon::now())->cc(['isamar.dvgz@gmail.com']);
       });
     }
     public function envia_libro(Request $request)
@@ -85,7 +85,7 @@ class testerController extends Controller
       $path= $request->input('ruta');
       $data = [
               'email_contacto' => $request->input('correo'),
-              'email_destino' => 'gpoggi@san-fernando.com.pe',
+              'email_destino' => 'isamar.dvgz@gmail.com',
               'name' => $request->input('nombre'),
               'tipo' => $request->input('tipo'),
               'documento' =>$request->input('documento'),
@@ -120,13 +120,13 @@ class testerController extends Controller
       });
       if($path){
         Mail::send('mail.demo_libro', $data, function ($message) use ($data,$path) {
-            $message->to($data['email_destino'], $data['name'])->subject('Libro de Reclamaciones '.\Carbon\Carbon::now())->cc(['sshimabukuro@san-fernando.com.pe']);
+            $message->to($data['email_destino'], $data['name'])->subject('Libro de Reclamaciones '.\Carbon\Carbon::now())->cc(['isamar.dvgz@gmail.com']);
             $message->attach($path);
         });
       }
       else{
         Mail::send('mail.demo_libro', $data, function ($message) use ($data) {
-            $message->to($data['email_destino'], $data['name'])->subject('Libro de Reclamaciones '.\Carbon\Carbon::now())->cc(['sshimabukuro@san-fernando.com.pe']);
+            $message->to($data['email_destino'], $data['name'])->subject('Libro de Reclamaciones '.\Carbon\Carbon::now())->cc(['isamar.dvgz@gmail.com']);
         });
       }
     }

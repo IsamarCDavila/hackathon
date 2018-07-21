@@ -5,7 +5,7 @@
 
     <head>
         <meta charset="utf-8" />
-        <title>San Fernando - Peru</title>
+        <title>Code en mi cole</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <meta content="Preview page of Metronic Admin Theme #2 for blank page layout" name="description" />
@@ -150,7 +150,7 @@
                         <li class="nav-item  ">
                             <a href="{!!url('admin/productos')!!}" class="nav-link nav-toggle">
                                 <i class="icon-basket-loaded"></i>
-                                <span class="title">Productos</span>
+                                <span class="title">Cursos</span>
                                 <span class="arrow"></span>
                             </a>
                         </li>
@@ -171,7 +171,7 @@
                         <li class="nav-item  ">
                             <a href="{!!url('/puntosventa')!!}" class="nav-link nav-toggle">
                                 <i class="icon-map"></i>
-                                <span class="title">Puntos de Venta y Canje</span>
+                                <span class="title">Puntos colegio</span>
                                 <span class="arrow"></span>
                             </a>
                         </li>
@@ -202,7 +202,7 @@
                     </div>
                         <!-- BEGIN FOOTER -->
                         <div class="page-footer">
-                            <div class="page-footer-inner">2018 &copy; San Fernando
+                            <div class="page-footer-inner">2018 &copy; Code en mi cole
                                 <div class="scroll-to-top">
                                     <i class="icon-arrow-up"></i>
                                 </div>

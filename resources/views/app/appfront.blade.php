@@ -3,28 +3,28 @@
     <head>
         <meta charset="utf-8" />
         @isset($title)
-         <title>{!!$title!!}</title>
+         <title>Code en mi cole</title>
         @endisset
 
         @empty($records)
-        <title>San Fernando - Perú</title>
+        <title>Code en mi cole - Perú</title>
         @endempty
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="robots" content="index, follow">
-        <meta name="keywords" content="San Fernando">
-        <meta name="description" content="San Fernando, la buena familia">
-        <meta property="og:title" content="San Fernando, la buena Familia">
+        <meta name="keywords" content="Colegio, programacion, ampra">
+        <meta name="description" content="Code en mi cole">
+        <meta property="og:title" content="cole en cole">
         <meta property="og:type" content="website"/>
         <meta property="og:site_name" content="San Fernando - Perú">
         <meta property="og:description" content="San Fernando - Perú">
-        <meta property="og:image" content="https://www.san-fernando.com.pe/images/logo.png">
+        <!--<meta property="og:image" content="https://www.san-fernando.com.pe/images/logo.png">-->
 
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
-        <meta content="author" name="Studio Tigres"/>
-        <link rel="shortcut icon" href="https://www.san-fernando.com.pe/images/logo.png" type="image/x-icon">
+        <meta content="author" name="Ampra Consultant"/>
+        <!--<link rel="shortcut icon" href="https://www.san-fernando.com.pe/images/logo.png" type="image/x-icon">-->
 
 
         <meta name="csrf-token" content="{{ csrf_token() }}">

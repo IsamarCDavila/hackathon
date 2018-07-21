@@ -158,11 +158,13 @@ $title = 'San Fernando - Peru';
           <!--Banner Home informacion nutricional -->
           <div class="lineaProductoCont row row-nomargin">
             <div class="lineaProducto-title">
-              <div class="row-global col-xs-12 col-nopadding">
-                <h1>Línea de Productos</h1>
+              <div class="row-global col-xs-12 col-md-8 col-nopadding">
+                <h1>Desea apoyar a Code en mi cole</h1>
+              </div>
+              <div class="row-global col-xs-12 col-md-4 col-nopadding row_btn">
+                <span class="span_btn">Apoyar</span>
               </div>
             </div>
-            @include('front.includes.lineaProducto')
           </div>
           <!--  Banner Home Frase-->
           <!-- Seccion Puntos de Venta  -->
@@ -194,7 +196,7 @@ $title = 'San Fernando - Peru';
       <div class="cont-noticiasmenu col-md-6 col-sm-6 hidden-xs bloque_5">
         <div class="col-lg-offset-2 col-lg-6 col-sm-offset-1 col-sm-11">
           <h1 class="tit-blanco46 titulo_db">Noticias</h1>
-          <p class="parraf-blanco14 descripcion_db">Todas las noticias relacionadas a San Fernando.</p>
+          <p class="parraf-blanco14 descripcion_db">La últimas noticias relacionadas a Code en mi cole.</p>
         </div>
         <div class="items-noticias">
           <?php
@@ -244,21 +246,21 @@ $title = 'San Fernando - Peru';
     <!-- Seccion Mitos -->
     <div class="cont-mitosmenu col-md-6 col-sm-6 col-xs-12">
       <div class="col-sm-offset-right-1 col-sm-offset-1">
-        <h1 class="tit-dorado18">Aclarando </h1>
+        <h1 class="tit-dorado18">Beneficios </h1>
         <ul class="nav nav-tabs tabs-mitos tab-mostrar">
           <li class="righttab">
             <a class="txt-mitos" data-toggle="tab" href="#mito1" id="a_mito1">
-              <span class="nro">1</span><span class="tit-blanco20 pos-texto">Crianza</span>
+              <span class="nro">1</span><span class="tit-blanco20 pos-texto">Conoce</span>
             </a>
           </li>
           <li>
             <a class="txt-mitos" data-toggle="tab" href="#mito2" id="a_mito2">
-              <span class="nro">2</span><span class="tit-blanco20 pos-texto">Salud</span>
+              <span class="nro">2</span><span class="tit-blanco20 pos-texto">Crea</span>
             </a>
           </li>
           <li class="">
             <a class="txt-mitos" data-toggle="tab" href="#mito3" id="a_mito3">
-              <span class="nro">3</span><span class="tit-blanco20 pos-texto">Fitness</span>
+              <span class="nro">3</span><span class="tit-blanco20 pos-texto">Aprende</span>
             </a>
           </li>
         </ul>
@@ -270,19 +272,17 @@ $title = 'San Fernando - Peru';
               </div>
               <div class="col-md-6 col-xs-8">
                 <div class="mito-cont animated">
-                  <h1 class="tit-mito">Mito:</h1>
+                  <h1 class="tit-mito">Beneficio:</h1>
                   <div class="linea-punteada"></div>
-                  <p class="parraf-mito">Los pollos no están bien alimentados.</p>
-                <button class="btn-true btn-red btn-red-mito" id="verdad1"><span class="true">CONOCE LA VERDAD AQUÍ</span></button>
+                  <p class="parraf-mito">El mundo digital que te rodea</p>
+                <button class="btn-true btn-red btn-red-mito" id="verdad1"><span class="true">VER MÁS</span></button>
                 </div>
                 <div class="verdad-cont animated">
                   <div class="top-arrow">
                     <i class="fa fa-arrow-up" aria-hidden="true"></i>
-                    <span>Verdad:</span>
+                    <span>Beneficio:</span>
                   </div>
-                  <p>En San Fernando, tenemos nuestra propia planta de alimento balanceado donde procesamos nuestra propia soya y
-maíz siguiendo los mayores estándares de calidad y seguridad alimentaria a nivel mundial. Nuestros pollos crecen
-únicamente a base de una buena alimentación sin la utilización de hormonas en ninguna parte del proceso.</p>
+                  <p>lorem lorem lorem</p>
                 </div>
               </div>
             </div>
@@ -294,18 +294,17 @@ maíz siguiendo los mayores estándares de calidad y seguridad alimentaria a niv
               </div>
               <div class="col-md-6 col-xs-8">
                 <div class="mito-cont animated">
-                  <h1 class="tit-mito">Mito:</h1>
+                  <h1 class="tit-mito">Beneficio:</h1>
                   <div class="linea-punteada"></div>
-                  <p class="parraf-mito">El huevo frito tiene mucha grasa.</p>
-                <button class="btn-true btn-red btn-red-mito" id="verdad2"><span class="true">CONOCE LA VERDAD AQUÍ</span></button>
+                  <p class="parraf-mito">Tus propios proyectos tecnológicos</p>
+                <button class="btn-true btn-red btn-red-mito" id="verdad2"><span class="true">VER MÁS</span></button>
                 </div>
                 <div class="verdad-cont animated">
                   <div class="top-arrow">
                     <i class="fa fa-arrow-up" aria-hidden="true"></i>
-                    <span>Verdad:</span>
+                    <span>Beneficio:</span>
                   </div>
-                  <p>Te comentamos que el huevo cuenta con una absorción de aceite limitada durante la fritura, esto no afectará de
-manera significativa sus calorías regulares. Sin embargo, puedes también disfrutarlo sancochado.</p>
+                  <p>LOREM LOREM LOREM</p>
                 </div>
               </div>
             </div>
@@ -317,18 +316,17 @@ manera significativa sus calorías regulares. Sin embargo, puedes también disfr
               </div>
               <div class="col-md-6 col-xs-8">
                 <div class="mito-cont animated">
-                  <h1 class="tit-mito">Mito:</h1>
+                  <h1 class="tit-mito">Beneficio:</h1>
                   <div class="linea-punteada"></div>
-                  <p class="parraf-mito">Todos los embutidos son altos en grasas.</p>
-                <button class="btn-true btn-red btn-red-mito" id="verdad3"><span class="true">CONOCE LA VERDAD AQUÍ</span></button>
+                  <p class="parraf-mito">¿Cómo funciona la tecnología?</p>
+                <button class="btn-true btn-red btn-red-mito" id="verdad3"><span class="true">VER MÁS</span></button>
               </div>
                 <div class="verdad-cont animated">
                   <div class="top-arrow">
                     <i class="fa fa-arrow-up" aria-hidden="true"></i>
-                    <span>Verdad:</span>
+                    <span>Beneficio:</span>
                   </div>
-                  <p>No es cierto. Tenemos dentro de nuestras opciones como nuestra línea de pavita con bajo porcentaje de grasa y
-recomendado dentro de una alimentación balanceada.</p>
+                  <p>Lorem lorem lorem</p>
                 </div>
               </div>
             </div>
