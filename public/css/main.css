@@ -2,12 +2,18 @@
   /* outline: 1px solid red; */
 }
 body{
-  background-color: #002878;
+  background-color: #b12f2f;
   /* #204d74; */
 }
 
 .page-sidebar, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover{
-  background-color: #002878;
+  background-color: #b12f2f;
+}
+ .page-sidebar .page-sidebar-menu>li:hover>a{
+       background: #d46363;
+ }
+.page-sidebar .page-sidebar-menu>li>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li>a{
+  border: none !important;
 }
 .right {
     float: right;

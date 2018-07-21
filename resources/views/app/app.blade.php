@@ -80,7 +80,7 @@
                 <!-- BEGIN LOGO -->
                 <div class="page-logo">
                   <div class="col-md-9 nopadding imglogo">
-                    <a href="{{ url("/") }}"><img src="{!!url('/images/logo-footer.png')!!}" alt="mallki logo" class="img-responsive"/></a>
+                    <a href="{{ url("/") }}"></a>
                   </div>
                   <div class="col-md-3 nopadding">
                     <div class="menu-toggler sidebar-toggler"></div>
@@ -140,38 +140,38 @@
                               <span class="arrow"></span>
                           </a>
                       </li>
-                        <li class="nav-item  ">
+                        <!-- <li class="nav-item  ">
                             <a href="{!!url('/banner')!!}" class="nav-link nav-toggle">
                                 <i class="icon-picture"></i>
                                 <span class="title">Banner</span>
                                 <span class="arrow"></span>
                             </a>
-                        </li>
-                        <li class="nav-item  ">
+                        </li> -->
+                        <!-- <li class="nav-item  ">
                             <a href="{!!url('admin/productos')!!}" class="nav-link nav-toggle">
                                 <i class="icon-basket-loaded"></i>
                                 <span class="title">Cursos</span>
                                 <span class="arrow"></span>
                             </a>
-                        </li>
-                        <li class="nav-item  ">
+                        </li> -->
+                        <!-- <li class="nav-item  ">
                             <a href="{!!url('admin/recetas')!!}" class="nav-link nav-toggle">
                                 <i class="icon-list"></i>
                                 <span class="title">Recetas</span>
                                 <span class="arrow"></span>
                             </a>
-                        </li>
-                        <li class="nav-item  ">
+                        </li> -->
+                        <!-- <li class="nav-item  ">
                             <a href="{!!url('/noticias')!!}" class="nav-link nav-toggle">
                                 <i class="icon-book-open"></i>
                                 <span class="title">Noticias</span>
                                 <span class="arrow"></span>
                             </a>
-                        </li>
+                        </li> -->
                         <li class="nav-item  ">
                             <a href="{!!url('/puntosventa')!!}" class="nav-link nav-toggle">
                                 <i class="icon-map"></i>
-                                <span class="title">Puntos colegio</span>
+                                <span class="title">Puntos de turismo</span>
                                 <span class="arrow"></span>
                             </a>
                         </li>
