@@ -46,13 +46,13 @@ $title = 'Nosotros - San Fernando';
           <div class="fondo">
   					<div id="timeline-2010" class="timeline">
   						<h3>1948</h3>
-  						<img class="img-uno" src="img/timeline/photo-timeline-2010.png">
-  						<img class="img-dos" src="img/timeline/img2.png">
-              <img class="img-tres" src="img/timeline/img3.png">
+  						<img class="img-uno" src="img/timeline/img4.jpg">
+  						<img class="img-dos" src="img/timeline/mistipast.jpg">
+              <img class="img-tres" src="img/timeline/plaza.jpg">
   						<h2 class="parallax comillas">
   							<span>  <figure class="quote-principal" >
               <blockquote class="curly-quotes">
-                Desde hace más de 69 años <br>venimos agrandando <br> nuestra familia. Hoy, tú <br>formas parte de ella.
+                Fundación española de <br>Arequipa <br> Ciudad Blanca.
               </blockquote>
             </figure></span>
   						</h2>
@@ -60,34 +60,34 @@ $title = 'Nosotros - San Fernando';
   							<div class="hexagon hexagon-1"></div>
                 <p class="texto1">Iniciamos actividades con 35 patas reproductoras en Tomas Marsano</p>
   							<p class="timeline-anios">1963</p>
-  							<p>Después de 15 años ingresamos al negocio de pollos. Se inicia la crianza con 468 pollos</p>
+  							<p>AREQUIPA CIUDAD BLANCA </p>
   						</div>
   						<div id="milestone-02" class="milestone-left parallax">
   							<div class="hexagon hexagon-3"></div>
   							<p class="timeline-anios anio-1965">1972</p>
-  							<p>Se abre la primera tienda de San Fernando, ubicada en Tomas Marsano con la venta de pollos y huevos</p>
+  							<p>AREQUIPA CIUDAD BLANCA </p>
                 <p class="timeline-anios anio-1970">1974</p>
-  							<p>Inicamos la crianza de reproductoras de carne</p>
+  							<p>Inicamos ......</p>
   						</div>
   						<div id="milestone-03" class="milestone-right parallax">
   							<div class="hexagon hexagon-2"></div>
   							<p class="timeline-anios anio-1965">1978</p>
-  							<p>Ingresamos al negocio de pavos</p>
+  							<p>AREQUIPA CIUDAD BLANCA </p>
   						</div>
   						<div id="milestone-04" class="milestone-left parallax">
   							<p class="timeline-anios">1977</p>
-  							<p>San Fernando inagura su propia planta de alimentos balanceados de Lurin</p>
+  							<p>AREQUIPA CIUDAD BLANCA </p>
                 <div class="hexagon hexagon-4"></div>
               </div>
   						<div id="milestone-05" class="milestone-right parallax">
   							<div class="hexagon"><i class="flash"></i></div>
   							<p class="timeline-anios">1979</p>
-  							<p>Ingresamos al negocio de huevos en las granjas de Lurin</p>
+  							<p>AREQUIPA CIUDAD BLANCA </p>
   						</div>
   						<div id="milestone-06" class="milestone-right parallax">
   							 <div class="hexagon"><i class="signpost"></i></div>
   							<p class="timeline-anios">1980</p>
-  							<p>Iniciamos la venta de genética (Pollos bebés)</p>
+  							<p>Iniciamos .......</p>
   						</div>
   					</div>
             </div> <!--fin fondo-->
@@ -96,89 +96,77 @@ $title = 'Nosotros - San Fernando';
   					<div id="timeline-2013" class="timeline">
   						<h3 class="h3_ball_red_one">2011</h3>
   						<img class="2013-one-img"src="images/effie.png">
-              <img class="2013-two-img effie-imag"src="images/delgado.png">
+              <!--<img class="2013-two-img effie-imag"src="images/delgado.png">
               <img class="2013-three-img pavita-imag"src="images/pavita.png">
-  						<!-- <h2 class="parallax">
+  						 <h2 class="parallax">
   							<span>Your<br/>
   								ideas</span>
   						</h2> -->
   						<div id="milestone-07" class="milestone-left parallax">
                 <hr class="linea2">
-                <p class="titDorado lideres-titulo"> Ahora somos líderes en todos los mercados en los que participamos a nivel nacional. </p>
+                <p class="titDorado lideres-titulo"> Ahora somos la segunda capital del Pais </p>
                 <hr class="linea2">
   						</div>
   						<div id="milestone-08" class="milestone-right parallax">
-  							<h4>Campaña Lanzamiento de Pavita San Fernando</h4>
-  							<p class="subtitle-2011">Gran marca clásica 2011</p>
+  							<h4>Proyectos en beneficio de la comunidad</h4>
+  							<p class="subtitle-2011">Interoceanica</p>
   						</div>
   						<div id="milestone-09" class="milestone-left parallax">
-  							<p class="parraf-timeline">Destacamos como el mayor productor de carne de aves, huevos, cerdo y embutidos. En el extranjero, exportamos a mercados competitivos como Bolivia, Colombia, Ecuador y Panamá. Así, todos nuestros esfuerzos buscan convertir a la gran familia San Fernando en una compañía que compite en el mercado global con productos de valor agregado y servicios actualizados.</p>
+  							<p class="parraf-timeline">La comida arequipeña ha alcanzado fama por ser una de las más variadas y sabrosas del Perú. Posee la mayor diversidad respecto a otros departamentos del Perú gracias a la amplia despensa que posee en su campiña y sus valles así como su amplia costa.</p>
   						</div>
-  						<div id="milestone-10" class="milestone-right parallax">
-  							<!-- <h4>June 2013</h4> -->
-                <div class="group">
-    							<p class="subtitle-2011">Gran Effie 2011</p>
-                  <p class="parraf-timeline">Mejor campaña publicitaria en todas las categorias.</p>
-                </div>
-                <div class="espacios"></div>
-                <div class="group">
-                  <p class="subtitle-2011">Effie Oro 2012</p>
-                  <p class="parraf-timeline">Mejor campaña categoría alimentos y bebidas.</p>
-                </div>
-  						</div>
+  						
   						<div id="milestone-11" class="milestone-left parallax">
-  							<h4>Campaña Relanzamiento de Marca</h4>
+  							<h4>CULTURA</h4>
                 <div class="espacios"></div>
                 <div class="group">
-                  <p class="subtitle-2011">Effie Oro 2013</p>
-                  <p class="parraf-timeline">Mejor campaña categoría alimentos y bebidas.</p>
+                  <p class="subtitle-2011">Teatros</p>
+                  <p class="parraf-timeline">Campaña categoría alimentos y bebidas.</p>
               </div>
                 <div class="espacios_sub"></div>
                 <div class="group">
-                  <p class="subtitle-2011">Gran Effie 2013</p>
-                  <p class="parraf-timeline">Mejor campaña publicitaria en todas las categorias.</p>
+                  <p class="subtitle-2011">Teatros</p>
+                  <p class="parraf-timeline">Campaña categoría alimentos y bebidas.</p>
               </div>
   						</div>
               <h3 class="h3_ball_red_two">2014</h3>
               <div id="milestone-12" class="milestone-right parallax">
-  							<h4>Campaña: <br>
-                  Jueves de Pavita<br>
+  							<h4>GASTRONOMIA<br>
                   2012 - 2013.</h4>
                 <div class="espacios"></div>
                   <div class="group">
-                    <p class="subtitle-2011">Effie Plata 2014</p>
+                    <p class="subtitle-2011">rocoto relleno
                     <p class="parraf-timeline">Categoría Alimentos.</p>
                 </div>
                 <div class="espacios_sub"></div>
                 <div class="group">
-                    <p class="subtitle-2011">Effie Oro 2014</p>
-                    <p class="parraf-timeline">Mejor campaña categoría Nuevos Productos.</p>
+                    <p class="subtitle-2011">Cuy Chactao
+                    <p class="parraf-timeline">Este plato tipico.....</p>
                </div>
   						</div>
               <div id="milestone-13" class="milestone-left parallax">
-                <p class="subtitle-2011">Gran Effie 2014</p>
+                <p class="subtitle-2011">AREQUIPA CIUDAD BLANCA </p>
                 <p class="parraf-timeline">Mejor campaña publicitaria en todas las categorias. </p>
   						</div>
               <div id="milestone-14" class="milestone-right parallax">
                 <div class="hexagon hexagon-5"></div>
-                <p class="subtitle-2011">Reputación Corporativa</p>
-                <p class="parraf-timeline">En el 2014, obtuvimos el 12º puesto en MERCO (Monitor Empresarial de Reputación Corporativa) y ocupamos el 8º lugar del Reputation Institute.</p>
+                <p class="subtitle-2011">La mejor ciudad de para disfrutar de tus vacaciones</p>
+                <p class="parraf-timeline">somos.......</p>
   						</div>
               <div id="milestone-15" class="milestone-left parallax">
-  							<h4>Campaña <br> ¡No es atún de pollo! 2014.</h4>
+  							<h4>TURISMO</h4>
   						</div>
   					</div>
   					 <div id="timeline-2014" class="timeline">
   						<h3 class="h3_ball_red_three">2017</h3>
   						<div id="milestone-16" class="milestone-right parallax">
                 <div class="hexagon hexagon-5"></div>
-                <p class="subtitle-2011">Premio Creatividad Empresarial 2017</p>
-                <p class="parraf-timeline">Ganador: Línea de abonos orgánicos Mallki en la categoría Productos y Servicios Intermedios.</p>
+                <p class="subtitle-2011">Colca</p>
+                <p class="parraf-timeline">Guia turistica</p>
               </div>
   						<div id="milestone-17" class="milestone-left parallax">
                 <div class="hexagon hexagon-5"></div>
-                <p class="subtitle-2011">MERCO 2017</p>
-                <p class="parraf-timeline">En el 2017, obtuvimos el 14° en MERCO (Monitor Empresarial de Reputación Corporativa).</p>
+                <p class="subtitle-2011">AREQUIPA CIUDAD BLANCA</p>
+                <p class="parraf-timeline">Cuidado......</p>
               </div>
   					</div>
 
@@ -310,7 +298,7 @@ $title = 'Nosotros - San Fernando';
                     <div class="row row-nomargin">
                       <div class="col-md-4 hidden-xs"></div>
                       <div class="col-md-6 col-xs-12 column-l rightcero">
-                        <p>Después de 15 años ingresamos al negocio de pollos. Se inicia la crianza con 468 pollos</p>
+                        <p>AREQUIPA CIUDAD BLANCA </p>
                       </div>
                       <div class="col-md-1 hidden-xs"></div>
                     </div>
@@ -342,7 +330,7 @@ $title = 'Nosotros - San Fernando';
                     <div class="row row-nomargin">
                       <div class="col-md-1 hidden-xs"></div>
                       <div class="col-md-6 col-xs-12">
-                        <p>Ingresamos al negocio de pavos</p>
+                        <p>AREQUIPA CIUDAD BLANCA </p>
                       </div>
                       <div class="col-md-5 hidden-xs"></div>
                     </div>
@@ -364,7 +352,7 @@ $title = 'Nosotros - San Fernando';
                     <div class="row row-nomargin">
                       <div class="col-md-1 hidden-xs"></div>
                       <div class="col-md-6 col-xs-12 column-l">
-                        <p>San Fernando inagura su propia planta de alimentos balanceados de Lurin</p>
+                        <p>AREQUIPA CIUDAD BLANCA </p>
                       </div>
                       <div class="col-md-5 hidden-xs"></div>
                     </div>
@@ -390,7 +378,7 @@ $title = 'Nosotros - San Fernando';
                     <div class="row">
                       <div class="col-md-5 hidden-xs"></div>
                       <div class="col-md-6 col-xs-12 column-l col-nopadding">
-                        <p>Ingresamos al negocio de huevos en las granjas de Lurin</p>
+                        <p>AREQUIPA CIUDAD BLANCA </p>
                       </div>
                       <div class="col-md-1 hidden-xs"></div>
                     </div>
@@ -420,7 +408,7 @@ $title = 'Nosotros - San Fernando';
                     <div class="row row-nomargin">
                       <div class="col-md-1 hidden-xs"></div>
                       <div class="col-md-6 col-xs-12">
-                        <p>Iniciamos la venta de genética (Pollos bebés)</p>
+                        <p>AREQUIPA CIUDAD BLANCA </p>
                       </div>
                       <div class="col-md-5 hidden-xs"></div>
                     </div>
@@ -445,7 +433,7 @@ $title = 'Nosotros - San Fernando';
                       <div class="col-md-5 hidden-xs"></div>
                         <div class="col-md-7 col-xs-12 column-l">
                           <hr class="linea2">
-                          <h4 class="titDorado lideres-titulo"> Ahora somos líderes en todos los mercados en los que participamos a nivel nacional. </h4>
+                          <h4 class="titDorado lideres-titulo"> AREQUIPA CIUDAD BLANCA </h4>
                           <hr class="linea2">
                         </div>
                         <div class="col-md-1 hidden-xs"></div>
@@ -455,7 +443,7 @@ $title = 'Nosotros - San Fernando';
                     <div class="row row-nomargin">
                       <div class="col-md-5 hidden-xs"></div>
                       <div class="col-md-6 hidden-xs">
-                        <p>Destacamos como el mayor productor de carne de aves, huevos, cerdo y embutidos. En el extranjero, exportamos a mercados competitivos como Bolivia, Colombia, Ecuador y Panamá. Así, todos nuestros esfuerzos buscan convertir a la gran familia San Fernando en una compañía que compite en el mercado global con productos de valor agregado y servicios actualizados.</p>
+                        <p>AREQUIPA ArequipaArequipaArequipaArequipaArequipaArequipaArequipaArequipaArequipaArequipaArequipaArequipaArequipaArequipaArequipaArequipaArequipaArequipaArequipaArequipaArequipaArequipaArequipaArequipa</p>
                       </div>
                       <div class="col-md-1 hidden-xs"></div>
                     </div>
@@ -470,9 +458,7 @@ $title = 'Nosotros - San Fernando';
                   <div class="timeline-heading">
                     <div class="row row-nomargin">
                       <!-- <div class="col-md-1 hidden-xs"></div> -->
-                      <div class="col-md-6 col-xs-12 column-l col-effie">
-                        <p class="timeline-title2">Campaña <br> Lanzamiento <br>de Pavita <br> San Fernando</p>
-                      </div>
+                    
                       <div class="col-md-5 hidden-xs"></div>
                     </div>
                   </div>
@@ -480,7 +466,7 @@ $title = 'Nosotros - San Fernando';
                     <div class="row row-nomargin">
                       <!-- <div class="col-md-1 hidden-xs"></div> -->
                       <div class="col-md-6 col-xs-12 marca-clasica">
-                        <p class="titDorado titp">Gran Marca Clásica 2011</p>
+                        <p class="titDorado titp">EVENTOS CULTURALES</p>
                       </div>
                       <div class="col-md-5 hidden-xs"></div>
                     </div>
@@ -489,17 +475,18 @@ $title = 'Nosotros - San Fernando';
               </li>
               <li class="timeline-inverted delgado">
                 <div class="img-sig">
-                    <img src="images/delgado.png" alt="Delgado San Fernando" class="img-delgado img-responsive"/>
+                    <img src="images/misti.jpg" alt="Delgado San Fernando" class="img-delgado img-responsive"/>
                 </div>
                 <div class="timeline-panel effie-2011"  data-aos="zoom-in-left">
                   <div class="timeline-body textoLineaBlanco">
                     <div class="row row-nomargin">
                       <div class="col-md-1 hidden-xs"></div>
-                      <div class="col-md-6 col-xs-12 column-l padding-izq parraf-2011">
-                        <p class="titDorado">Gran Effie 2011</p>
-                        <p>Mejor campaña publicitaria en todas las categorias.</p>
-                        <p class="titDorado">Effie Oro 2012 </p>
-                        <p>Mejor campaña categoría alimentos y bebidas.</p>
+                      
+                       <div class="col-md-6 col-xs-12 column-l padding-izq parraf-2011">
+                        <p class="titDorado">AREQUIPA CIUDAD BLANCA</p>
+                        <p>AREQUIPA CIUDAD BLANCA</p>
+                        <p class="titDorado">DANZA </p>
+                        <p>AREQUIPA CIUDAD BLANCA</p>
                       </div>
                       <div class="col-md-5 hidden-xs"></div>
                     </div>
@@ -512,7 +499,7 @@ $title = 'Nosotros - San Fernando';
                     <div class="row row-nomargin">
                       <div class="col-md-5 hidden-xs"></div>
                       <div class="col-md-6 col-xs-12 column-l left">
-                        <p class="timeline-title2 padding-camp">Campaña Relanzamiento de Marca</p>
+                        <p class="timeline-title2 padding-camp">AREQUIPA CIUDAD BLANCA</p>
                       </div>
                       <div class="col-md-1 hidden-xs"></div>
                     </div>
@@ -521,10 +508,10 @@ $title = 'Nosotros - San Fernando';
                     <div class="row row-nomargin">
                       <div class="col-md-5 hidden-xs"></div>
                       <div class="col-md-6 col-xs-12 column-l left">
-                        <p class="titDorado">Effie Oro 2013</p>
-                        <p>Mejor campaña categoría alimentos y bebidas.</p>
-                        <p class="titDorado">Gran Effie 2013</p>
-                        <p>Mejor campaña publicitaria en todas las categorias.</p>
+                        <p class="titDorado">AREQUIPA CIUDAD BLANCA</p>
+                        <p>Proyectos Actuales</p>
+                        <p class="titDorado">AREQUIPA CIUDAD BLANCA</p>
+                        <p>AREQUIPA CIUDAD BLANCA</p>
                       </div>
                       <div class="col-md-1 hidden-xs"></div>
                     </div>
@@ -542,7 +529,7 @@ $title = 'Nosotros - San Fernando';
                     <div class="row row-nomargin">
                       <div class="col-md-2 hidden-xs"></div>
                       <div class="col-md-6 col-xs-12 column-l titulo-pavita">
-                        <p class="timeline-title2">Campaña:<br> Jueves de Pavita <br>2012 - 2013.</p>
+                        <p class="timeline-title2"><br> AREQUIPA CIUDAD BLANCA<br>2012 - 2013.</p>
                       </div>
                       <!-- <div class="col-md-4 hidden-xs"></div> -->
                     </div>
@@ -551,10 +538,10 @@ $title = 'Nosotros - San Fernando';
                     <div class="row row-nomargin">
                       <div class="col-md-2 hidden-xs"></div>
                       <div class="col-md-6 col-xs-12 column-l effie-2014">
-                        <p class="titDorado">Effie Plata 2014</p>
-                        <p>Categoría Alimentos.</p>
+                        <p class="titDorado">CANTO</p>
+                        <p>AREQUIPA CIUDAD BLANCA</p>
                         <p class="titDorado">Effie Oro 2014</p>
-                        <p>Mejor campaña categoría Nuevos Productos.</p>
+                        <p></p>
                       </div>
                       <!-- <div class="col-md-4 hidden-xs"></div> -->
                     </div>
@@ -568,8 +555,8 @@ $title = 'Nosotros - San Fernando';
                     <div class="row row-nomargin">
                       <div class="col-md-6 hidden-xs"></div>
                       <div class="col-md-6 col-xs-12 column-l">
-                        <p class="titDorado">Gran Effie 2014</p>
-                        <p>Mejor campaña publicitaria en todas las categorias. </p>
+                        <p class="titDorado">DANZA</p>
+                        <p>AREQUIPA CIUDAD BLANCA </p>
                       </div>
                       <!-- <div class="col-md-1 hidden-xs"></div> -->
                     </div>
@@ -588,7 +575,7 @@ $title = 'Nosotros - San Fernando';
                     <div class="row row-nomargin">
                       <!-- <div class="col-md-1 hidden-xs"></div> -->
                       <div class="col-md-6 col-xs-12 column-l col-nopadding">
-                        <h4 class="titDorado">Reputación Corporativa</h4>
+                        <h4 class="titDorado">AREQUIPA CIUDAD BLANCA</h4>
                       </div>
                       <div class="col-md-5 hidden-xs"></div>
                     </div>
@@ -597,7 +584,7 @@ $title = 'Nosotros - San Fernando';
                     <div class="row row-nomargin">
                       <!-- <div class="col-md-1 hidden-xs"></div> -->
                       <div class="col-md-6 col-xs-12 column-l col-nopadding">
-                        <p class="parraf-paddtop">En el 2014, obtuvimos el 12º puesto en MERCO (Monitor Empresarial de Reputación Corporativa) y ocupamos el 8º lugar del Reputation Institute.</p>
+                        <p class="parraf-paddtop">AREQUIPA CIUDAD BLANCA</p>
                       </div>
                       <div class="col-md-5 hidden-xs"></div>
                     </div>
@@ -615,7 +602,7 @@ $title = 'Nosotros - San Fernando';
                     <div class="row">
                       <div class="col-md-6 hidden-xs"></div>
                       <div class="col-md-6 col-xs-12 column-l tit-atun col-nopadding">
-                        <p class="timeline-title2">Campaña <br>¡No es atún de pollo!<br>2014.</p>
+                        <p class="timeline-title2">Campañas <br>bienestar social<br>2014.</p>
                       </div>
                       <!-- <div class="col-md-1 hidden-xs"></div> -->
                     </div>
@@ -635,13 +622,13 @@ $title = 'Nosotros - San Fernando';
         <div class="col-md-6 col-xs-12">
           <div class="">
             <p class="tit-valor titDorado text-center">Misión</p>
-            <p class="parrafo-text">Contribuir al bienestar de la humanidad, suministrando alimentos de consumo masivo en el mercado global. </p>
+            <p class="parrafo-text">Contribuir al bienestar de la humanidad, brindando informacion verdadera</p>
           </div>
         </div>
         <div class="col-md-6 col-xs-12 line_nosotros">
           <div class="">
             <p class="tit-valor titDorado text-center">Visión</p>
-            <p class="parrafo-text">Ser competitivos a nivel mundial, suministrando productos de valor agregado para la alimentación humana. </p>
+            <p class="parrafo-text">Ser competitivos a nivel mundial, suministrando el mejor servicio de calidad para nuestro sfuturos clientes. </p>
           </div>
         </div>
 
@@ -657,7 +644,7 @@ $title = 'Nosotros - San Fernando';
           <div class="col-md-3 col-sm-3 col-xs-12 iso-certificaciones">
             <a href="#" class="titDorado2" data-toggle="modal" data-target="#isoModal" id="iso9001">
             <div class="img-sgs-rep">
-              <img src="images/ISO_9001.png" alt="certificado San Fernando" class="img-responsive iso_ultimo"/>
+              <img src="images/certifi.jpg" alt="certificado San Fernando" class="img-responsive iso_ultimo"/>
               <span>ISO 9001</span>
             </div>
             </a>
@@ -665,7 +652,7 @@ $title = 'Nosotros - San Fernando';
           <div class="col-md-3 col-sm-3 col-xs-12 iso-img-cont">
             <a href="#" class="titDorado2" data-toggle="modal" data-target="#iso2Modal" id="iso14001">
             <div class="img-iso-resp">
-              <img src="images/ISO_14001.png" alt="certificado San Fernando" class="img-responsive iso_ultimo"/>
+              <img src="images/certifi.jpg" alt="certificado San Fernando" class="img-responsive iso_ultimo"/>
               <span>ISO 14001</span>
             </div>
             </a>
@@ -674,7 +661,7 @@ $title = 'Nosotros - San Fernando';
           <div class="col-md-3 col-sm-3 col-xs-12 iso-img-cont">
             <a href="#" class="titDorado2" data-toggle="modal" data-target="#iso4Modal" id="ohsas18001">
             <div class="img-iso-resp">
-              <img src="images/ISO_18001.png" alt="certificado San Fernando"  class="img-responsive iso_ultimo"/>
+              <img src="images/certifi.jpg" alt="certificado San Fernando"  class="img-responsive iso_ultimo"/>
               <span>OHSAS 18001</span>
             </div>
             </a>
@@ -696,11 +683,11 @@ $title = 'Nosotros - San Fernando';
       </div>
     </div>
   <!-- fin certificaciones -->
-  <!-- responsabilidad social -->
+  <!-- responsabilidad social 
     <div class="row section-responsabilidad" id="responsabilidad-social">
       <div class="col-lg-12 col-sm-12 col-xs-12 secction-respon col-nopadding">
         <div class="col-lg-6 col-sm-6 col-xs-12 col-nopadding con-imgresp">
-             <!-- <img src="images/responsabilidad.png" class="img-responsive img-resp"/> -->
+             <!-- <img src="images/responsabilidad.png" class="img-responsive img-resp"/> 
         </div>
         <div class="col-lg-6 col-sm-6 col-xs-12 cont-txtresp">
           <div class="resp-txt-cont responsabilidad_clase">
@@ -716,7 +703,7 @@ $title = 'Nosotros - San Fernando';
       </div>
     </div>
   <!-- responsabilidad social -->
-  <!--contenido responsabilidad social colaboradores-->
+  <!--contenido responsabilidad social colaboradores
   <section id="Colaboradores" class="contenido_responsabilidad">
   <div class="row">
     <div class="col-lg-12 col-sm-12 col-xs-12 section-colaboradores">
@@ -737,14 +724,14 @@ $title = 'Nosotros - San Fernando';
   </div>
   </section>
   <!--fin responsabilidad social colaboradores-->
-  <!--contenido responsabilidad social comunidad-->
+  <!--contenido responsabilidad social comunidad
   <section id="Comunidad" class="contenido_responsabilidad">
   <div class="comunidad-section">
       @include('front.includes.comunidad')
   </div>
   </section>
   <!--fin responsabilidad social comunidad-->
-  <!--contenido responsabilidad social comunidad-->
+  <!--contenido responsabilidad social comunidad
   <section id="Gestion"  class="contenido_responsabilidad">
   <div class="comunidad-section">
     @include('front.includes.gestion-ambiental')

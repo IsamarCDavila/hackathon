@@ -31,6 +31,7 @@ position:relative;
   margin-left: -137px;
   top: 170px;
   width: 271px;
+  border-radius: 20%;
   height: 288px;
 }
 #timeline .timeline img.popped1 {
@@ -224,7 +225,7 @@ div.responsive{/*margin:0 10px;width:748px*/}
   padding-top: 142px;
 }
 .fondo-azul{
-  background-color:rgb(0, 50, 150);
+  background-color:#b12f2f;
   background-image: url(../images/sprite-sf.png);
 
 }
