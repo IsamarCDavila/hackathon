@@ -268,7 +268,7 @@ $title = 'San Fernando - Peru';
           <div id="mito1" class="tab-pane fade in">
             <div class="row det-mito row-nomargin">
               <div class="col-md-3 col-xs-3">
-                <img src="images/gallina.svg" alt="mitos San Fernando" class="img-responsive img-mito"/>
+                <!-- <img src="images/gallina.svg" alt="mitos San Fernando" class="img-responsive img-mito"/> -->
               </div>
               <div class="col-md-6 col-xs-8">
                 <div class="mito-cont animated">
@@ -290,7 +290,7 @@ $title = 'San Fernando - Peru';
           <div id="mito2" class="tab-pane fade mito">
             <div class="row det-mito row-nomargin">
               <div class="col-md-3 col-xs-3">
-                <img src="images/huevo.svg" alt="mitos San Fernando" class="img-responsive"/>
+                <!-- <img src="images/huevo.svg" alt="mitos San Fernando" class="img-responsive"/> -->
               </div>
               <div class="col-md-6 col-xs-8">
                 <div class="mito-cont animated">
@@ -312,7 +312,7 @@ $title = 'San Fernando - Peru';
           <div id="mito3" class="tab-pane fade mito">
             <div class="row det-mito row-nomargin">
               <div class="col-md-3 col-xs-3">
-                <img src="images/pavo.svg" alt="mitos San Fernando"  class="img-responsive img-mito"/>
+                <!-- <img src="images/pavo.svg" alt="mitos San Fernando"  class="img-responsive img-mito"/> -->
               </div>
               <div class="col-md-6 col-xs-8">
                 <div class="mito-cont animated">

@@ -343,7 +343,7 @@ hr.linea2 {
 }
 .con-imgvalor {
     z-index: 999;
-    background: url(../images/family.png) no-repeat center center;
+    background: url(../images/hero/misti.jpg) no-repeat center center !important;
     background-size: cover;
     position: relative;
 }

@@ -1178,6 +1178,8 @@ div.cont-txtresp {
   }
   .img-family-col {
     padding: 0 0 0 0!important;
+    background-image: url("../images/hero/misti.jpg") !important;
+
   }
   /*responsabilidad social */
   .comunidad-container, .contenedor-white {
