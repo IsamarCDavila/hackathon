@@ -37,11 +37,11 @@ $title = 'Puntos de venta - San Fernando';
   <div class="col-md-12 col-xs-12 fondo-distribuidor col-nopadding bloque_1 banner">
     <div class="row-global distribuidor-cont">
       <div class="responsive-center">
-        <img src="images/distribuidor.svg" alt="distribuidor San Fernando">
+        <!-- <img src="images/distribuidor.svg" aslt="distribuidor San Fernando"> -->
         <div class="distribuidor-centrar">
-          <p class="distribuidor-title titulo_db">¿Quieres ser Distribuidor?<p>
+          <p class="distribuidor-title titulo_db">¿Quieres contratar una agencia?<p>
           <p class="distribuidor-line"> </p>
-          <p class="distribuidor-subtitle descripcion_db">Buscamos socios comerciales interesados en la distribución de nuestros productos. ¡Tu puedes ser uno de ellos!</p>
+          <p class="distribuidor-subtitle descripcion_db">Escribe un correo a la agencia de tu preferencia!</p>
         </div>
       </div>
       <div class="">

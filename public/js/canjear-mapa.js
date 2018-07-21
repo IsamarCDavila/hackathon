@@ -14,6 +14,11 @@
     descripcion: 'Increíble. Un poco costoso pero vale la pena',
     location: {lat: -16.395118, lng: -71.536798}
   };
+  
+
+console.log(true);
+// console.log(alasql("SELECT * FROM ? WHERE titulo = ?",[data, titulo]));
+
   // Initialize the platform object: Necesita un app_id y app_code. Crea una cuenta en https://developer.here.com/
   var platform = new H.service.Platform({
   'app_id': '6UFukZ4CRKUMavfyK7zB',
