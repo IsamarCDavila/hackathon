@@ -102,6 +102,8 @@
     <script src="<?php echo URL::asset('js/validacion.js'); ?>" type="text/javascript"></script>
     <script src="<?php echo URL::asset('js/jquery-sticktotop.min.js'); ?>" type="text/javascript"></script>
     <script src="<?php echo URL::asset('js/recetaDetalle.js'); ?>" type="text/javascript"></script>
+    <!-- <script src="<?php echo URL::asset('js/alasql.min'); ?>" type="text/javascript"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/alasql@0.4"></script>
 
 
 

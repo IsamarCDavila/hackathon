@@ -6,7 +6,7 @@
         @foreach ($productos as $producto)
         <li>
           <a class="txt-productos" data-toggle="tab" href="{!!'#'.$producto->slug!!}" id="tab_{{$producto->slug}}">
-            <div class="cont-img-prod"><img src="{!!url($producto->icono_path)!!}" alt="producto San Fernando" class="img-responsive img-producto svg"/></div>
+            <div class="cont-img-prod"><img src="{!!url($producto->icono_path)!!}" class="img-responsive img-producto svg"/></div>
             {!!$producto->nombre!!}
           </a>
           <span class="triangulo"></span>
@@ -29,7 +29,7 @@
                   @endif
               </div>
               @if ($producto->texto_receta != '')
-              <div class="lp-receta">
+              <div class="lp-receta" style="display: none;">
                 <h1 class="txt-blanco50">Recetas</h1>
                 @if ($producto->video != '')
                 <div class="cont-recetavideo embed-responsive embed-responsive-4by3">

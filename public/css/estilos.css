@@ -32,6 +32,11 @@ a:focus, button:focus {
 .rightcero {
   padding-right: 0!important;
 }
+.logo_h{
+  font-family: 'Merienda', cursive !important;
+  font-weight: 600 !important;
+  color: #b12f2f !important;
+}
 body {
     border-bottom: 3px solid #bca266;
 }
@@ -529,10 +534,13 @@ div.row-menu {
   padding: 12px 34px;
   box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.14);
 }
-.btn-conocenos:focus , .btn-conocenos:hover{
-  color: #ffffff;
-  text-decoration: none;
-  background-color: #d52612;
+.btn-conocenos, .btn-conocenos:focus {
+  width: 230px;
+  height: 38px;
+  border-radius: 100px;
+  background-color: #bca266;
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.14);
+  color: #8a1c1c;
 }
 .menu-nosotros{
   /* background-image: url(../images/banner1.jpg); */
