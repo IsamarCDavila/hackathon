@@ -1,0 +1,179 @@
+.detalleProducto-cont{
+  background-color: #fbfbfb;
+}
+.title-detalle{
+  font-size: 39px;
+  font-weight: 800;
+  line-height: 1.02;
+  text-align: left;
+  color: #7b6851;
+  /* font-family: 'Open Sans', sans-serif; */
+}
+.subtitle-detalle{
+ font-size: 16px;
+ text-align: left;
+ color: #6c6c6c;
+ /* font-family: 'Open Sans', sans-serif; */
+}
+.icon-pavo{
+  margin-left: -20%;
+}
+.color-fondo{
+  background-color: #fbfbfb;
+  padding-top: 76px;
+  padding-bottom: 111px;
+}
+.img-certificados{
+  padding-top: 21px;
+}
+.icon-title{
+  padding-bottom: 28px;
+}
+.icon-pg, .icon-title{
+  width: calc(100% - 19%);
+  margin-right: 19%;
+}
+.detalle-variedades{
+ /* font-family: ACaslonPro; */
+ font-size: 38px;
+ font-weight: bold;
+ line-height: 0.79;
+ text-align: left;
+ color: #012e88;
+}
+.detalle-line {
+ width: 40px;
+ border-top: 3px solid #012e88;
+}
+.content-variedades{
+ /* font-family: 'Open Sans', sans-serif; */
+ font-size: 14px;
+ text-align: left;
+ color: #7b6851;
+ padding-top: 15px;
+}
+.separacion-variedades{
+  padding-top: 110px;
+}
+.row-title{
+ /* font-family: ACaslonPro; */
+ font-size: 20px;
+ font-weight: bold;
+ text-align: center;
+ color: #7b6851;
+}
+.caja {
+  display: flex;
+  display: -webkit-box;
+	display: -webkit-flex;
+	display: -webkit-flexbox;
+	display: -ms-flexbox;
+	align-items: center;
+	-webkit-align-items: center;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 4px 0 rgba(181, 181, 181, 0.3);
+  padding: 0px;
+  padding: 23px 0px 20px 23px;
+}
+.separacion-productos{
+  padding-top: 24px;
+}
+.separacion-productos-responsive{
+  padding-top: 9.6px;
+}
+.sinpadding-right{
+  padding-right: 7.5px !important;
+}
+.sinpadding-left{
+  padding-left: 7.5px !important;
+}
+.sinpadding-rightleft{
+  padding-right: 7.5px !important;
+  padding-left: 7.5px !important;
+}
+.text-align-center{
+  display: flex;
+  display: -webkit-box;
+	display: -webkit-flex;
+	display: -webkit-flexbox;
+	display: -ms-flexbox;
+	align-items: center;
+	-webkit-align-items: center;
+}
+.img-float{
+  position: absolute;
+      z-index: 1;
+      top: 50%;
+      left: -11%;
+}
+.variedad-fil-two{
+  /*padding-top: 47px;*/
+}
+.variedad-fil-one{
+  padding-top: 47px;
+}
+img.img-escritorio{
+  padding-top: 20px;
+}
+.cont-relacionadas-dos{
+  display: block;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.receta-relacionada-dos{
+  /* font-family: ACaslonPro; */
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 0.79;
+  text-align: left;
+  color: #003eb8;
+}
+.back-color{
+  background-color: #fbfbfb;
+}
+.cont-relacionadas-dos{
+  text-align: center;
+  padding-bottom: 50px;
+}
+div.back-color {
+  padding-bottom: 56px;
+}
+.detalle-subtitle-blue{
+ /* font-family: 'Open Sans', sans-serif; */
+ font-size: 14px;
+ text-align: left;
+ color: #012e88;
+ padding: 20px 0 6px 0;
+}
+.tab-padding{
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.detalleProducto-cont .lineaProducto .contenido-producto{
+  display: none;
+}
+.detalleProducto-cont .lineaProducto {
+  padding: 25px 0 95px 0;
+}
+.detalleProducto-cont .lineaProducto-detalle {
+    padding: 71px 0 0 0;
+    background-color: #ebece6;
+}
+.detalleProducto-cont .active .triangulo {
+    display: none;
+}
+.detalleProducto-cont .recetas-relacionadas button {
+  background-color: #ff2a2a;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.16);
+  display: block;
+  border-radius: 50%!important;
+}
+.detalleProducto-cont .recetas-relacionadas button:hover,
+ .detalleProducto-cont .recetas-relacionadas button:focus,{
+background-color: #d52612!important;
+}
+/*.recetas-relacionadas button:hover, .recetas-relacionadas button:focus {
+    background-color: #003296;
+}*/

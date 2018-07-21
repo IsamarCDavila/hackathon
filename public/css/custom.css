@@ -1,0 +1,348 @@
+
+a{
+  text-decoration:none;
+  transition:all .08s linear;
+  -o-transition:all .08s linear;-moz-transition:all .08s linear;
+  -webkit-transition:all .08s linear
+}
+div.responsive{
+  position:relative;margin:0 auto;
+  /*width:960px;*/
+  min-width:480px;
+  max-width:100%;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  overflow: hidden;
+  top: -62px;
+}
+
+#timeline .timeline-top-bottom{background-color:blue;height:100px}
+#timeline .timeline{background-image:url('../img/timeline/timeline1caa.png?1410532266');
+background-repeat:repeat-y;
+background-position:center top;
+position:relative;
+}
+#timeline-2010{height:1112px;color: #ffffff;background-image: url(../images/sprite-sf.png);}
+#timeline-2013{height:1346px;}
+#timeline-2014{height:400px;color:#784bc0;margin-bottom:25px;}
+#timeline .timeline img{position:absolute;left:50%;margin-left:0;top:345px;width:0;height:0;transition:all 200ms linear}
+#timeline .timeline img.popped{
+  margin-left: -137px;
+  top: 170px;
+  width: 271px;
+  height: 288px;
+}
+#timeline .timeline img.popped1 {
+    width: 158px;
+    height: 158px;
+}
+#timeline h2{position:absolute;left:10px;top:640px}
+#timeline h3{position:absolute;left:50%;
+             top:90px;
+             height:0;
+             width:0;
+             margin-left:0;
+             padding-top:0px;
+             padding-bottom:0px;
+             -webkit-box-sizing:border-box;
+             -moz-box-sizing:border-box;
+             box-sizing:border-box;
+             text-align:center;overflow:hidden;background-size:auto 75px;
+             background-repeat:no-repeat;
+             background-position:center center;
+             background-size:cover;
+             text-indent:-99999px;
+             transition:all 50ms ease-out, text-indent 500ms linear;
+           }
+#timeline h3.popped{
+    top: 6px !important;
+    height: 92px;
+    width: 92px;
+    margin-left: -46px;
+    padding-top: 33px;
+    text-indent: 0;
+  }
+/*ESTILOS PARA EL AÑO 2013*/
+#timeline h3.popped_ball_red_one
+{
+      top: 208px;
+      height: 92px;
+      width: 92px;
+      margin-left: -46px;
+      padding-top: 33px;
+      text-indent: 0;
+}
+#timeline .h3_ball_red_one
+{
+   position:absolute;left:50%;
+   top:208px;
+   height:0;
+   width:0;
+   margin-left:0;
+   padding-top:0px;
+   padding-bottom:0px;
+   -webkit-box-sizing:border-box;
+   -moz-box-sizing:border-box;
+   box-sizing:border-box;
+   text-align:center;overflow:hidden;background-size:auto 75px;
+   background-repeat:no-repeat;
+   background-position:center center;
+   background-size:cover;
+   text-indent:-99999px;
+   transition:all 50ms ease-out, text-indent 500ms linear;
+}
+#timeline .timeline img.2013-one-img {
+  margin-left: -86px;
+  top: 365px;
+  width: 160px;
+  height: 142px;
+}
+#timeline .timeline img.popped_one_img {
+  transform: translateX(-50%);
+  top: 365px;
+  width: 160px;
+  height: 142px;
+}
+
+#timeline .timeline img.popped_two_img {
+   transform: translateX(-50%);
+  top: 594px;
+  width: 197px;
+  height: 197px;
+  z-index: 1;
+}
+#timeline .timeline img.popped_three_img {
+  margin-left: -120px;
+  top: 218px;
+  width: 241px;
+  height: 141px;
+  z-index: 1;
+}
+#timeline h3.popped_ball_red_two {
+    top: 1120px;
+    height: 92px;
+    width: 92px;
+    margin-left: -46px;
+    padding-top: 33px;
+    text-indent: 0;
+}
+
+/*FIN ESTILOS AÑO 2013*/
+
+#timeline-2010 h3{background-image:url('../img/timeline/circle-blue1caa.png?1410532266')}
+#timeline-2013 h3{background-image:url('../img/timeline/circle-orange1caa.png?1410532266')}
+#timeline-2014 h3{background-image:url('../img/timeline/circle-orange1caa.png?1410532266')}
+#timeline-2010 h3 span{border-bottom-color:#fdb23d}
+#timeline-2013 h3 span{border-bottom-color:#009ee7}
+#timeline-2014 h3 span{border-bottom-color:#009ee7}
+#timeline .milestone-right{position:absolute;text-align:left;left:50%;width:360px}
+#timeline .milestone-left{position:absolute;text-align:right;right:50%;width:400px}
+#milestone-01 {top: 587px;margin-left: 110px;}
+#milestone-02{top: 640px;margin-right: 98px;}
+#milestone-03{top:1070px;margin-left:71px}
+#milestone-04{top:1315px;margin-right:115px}
+#milestone-05{top: 1206px;margin-left: 37px;}
+#milestone-06{top: 1400px; margin-left: 37px;}
+#milestone-07{top: 407px; margin-right: 95px;}
+#milestone-08{top: 643px; margin-left: 97px;}
+#milestone-09{top:656px;margin-right:178px}
+#milestone-10{top:1146px;margin-left:122px} /*del anterior al siguiente aumneto 300px*/
+#milestone-11{top:1174px;margin-right:139px}
+#milestone-12{top:1350px;margin-left:140px}
+#milestone-13{top:1720px;margin-right:84px}
+#milestone-14{top:1782px;margin-left:16px}
+#milestone-15{top: 1846px;margin-right: 54px;}
+#milestone-16{top:249px;margin-left:16px}
+#milestone-17{top: 339px;margin-right: 54px;}
+#timeline .hexagon{
+  height:175px;
+  width:75px;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  text-align:center;
+  overflow:hidden;
+  background-size:auto 75px;background-repeat:no-repeat;background-position:center top
+}
+#timeline .hexagon-1{background-image:url('../images/icon1.svg');}
+#timeline .hexagon-2{background-image:url('../images/icon2.svg'); z-index: 1; margin-left: -7px}
+#timeline .hexagon-3{background-image:url('../images/icon3.svg');}
+#timeline .hexagon-4{background-image:url('../images/icon4.svg'); margin-right: -65px; margin-top: 25px;}
+#timeline .hexagon-5{background-image:url('../images/medalla.png')}
+
+#timeline .milestone-right .hexagon{float:left;margin-right:15px}
+#timeline .milestone-left .hexagon{float:right;margin-left:15px}
+#timeline-2010 .hexagon{background-position:0px top}
+#timeline-2013 .hexagon{background-position:0px top}
+/*#timeline-2014 .hexagon{background-position:-150px top}*/
+#timeline i{display:block;margin:13px auto;height:75px;width:75px;background-image:url('../img/timeline/icons1caa.png?1410532266');background-repeat:no-repeat;background-position:center top;background-size:50px auto}
+#timeline i.tick{background-position:center 0px}
+#timeline i.flag{background-position:center -50px}
+#timeline i.talk{background-position:center -100px}
+#timeline i.savings{background-position:center -150px}
+#timeline i.hook{background-position:center -200px}
+#timeline i.flash{background-position:center -250px}
+#timeline i.search{background-position:center -300px}
+#timeline i.lightbulb{background-position:center -350px}
+#timeline i.compass{background-position:center -400px}
+#timeline i.pencil{background-position:center -450px}
+#timeline i.signpost,#timeline i.bottle{background-position:center -500px}
+#timeline h2{font-size:50px;line-height:1.5em;width:40%}
+#timeline h2 span{border-bottom-width:6px;border-bottom-style:solid;padding-bottom:0.1em}
+#timeline h3{color:white;font-size:26px;font-weight:700}
+#timeline h4{
+  opacity: 0.19;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.07;
+  text-align: left;
+  color: #ffffff;}
+/*#timeline p{font-size:14px;line-height:1.2em}*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)
+{
+div.responsive{/*margin:0 10px;width:748px*/}
+  #home div.responsive{margin:0 80px 0 10px;width:678px}
+  #slides-home h2{font-size:50px}
+  #timeline .milestone-right,#timeline .milestone-left{width:250px}
+  #milestone-05{top:1225px;margin-left:100px}
+  #milestone-08{margin-left:120px}
+  #milestone-09{margin-right:100px}
+  #milestone-12{margin-left:100px}
+  #milestone-13{margin-right:100px}
+  .parraf-timeline{
+    margin-left: 72px;
+    padding-top: 52px;
+}
+
+}
+.fondo{
+  background-color: rgb(175, 161, 108);
+  background-image: url(../images/sprite-sf.png);
+  padding-top: 142px;
+}
+.fondo-azul{
+  background-color:rgb(0, 50, 150);
+  background-image: url(../images/sprite-sf.png);
+
+}
+.top-time{
+  height: 151px;
+  background-image: url(../images/sprite-sf.png);
+  padding-top: 116px;
+  margin-top: -63px;
+}
+.line{
+  background-image: url(../img/timeline/timeline1caa.png?1410532266);
+  background-repeat: repeat-y;
+  background-position: bottom;
+  /* position: relative; */
+  height: 156px;
+}
+.parrafo-text{
+  /* font-family: 'Open Sans', sans-serif; */
+  font-size: 16px;
+  text-align: left;
+  color: #7b6851;
+}
+.section-familia{
+  background-color: #fbfbfb;
+  padding-top: 55px;
+}
+.con-imgvalor {
+  background-image: url('../images/family.png') no-repeat center center;
+  background-size: cover;
+  width: 670px;
+  height: 458px;
+}
+.timeline-anios{
+  /* font-family: 'Open Sans', sans-serif; */
+  font-size: 26px !important;
+  font-weight: 800;
+  letter-spacing: -0.7px;
+  color: #003296;
+}
+.texto1{
+  margin-top: -119px;
+  margin-left: 47px;
+  padding-bottom: 61px;
+}
+.anio-1965{
+margin-top: -20px;
+}
+.anio-1970{
+margin-top: 30px;
+}
+h2.comillas {
+  position: absolute !important;
+  top: 282px !important;
+  font-size: 50px !important;
+  line-height: 1.5em !important;
+  /*width: 30% !important;*/
+  left: 50%!important;
+  transform: translateX(-523px);
+}
+.subtitle-2011{
+  /* font-family: 'Open Sans', sans-serif; */
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #bca266;
+}
+.lideres-titulo {
+  /* font-family: 'Open Sans', sans-serif; */
+  font-size: 28.3px;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.2px;
+  text-align: left;
+  color: #bca266;
+  padding-left: 10px;
+}
+hr.linea2 {
+ height: 4px;
+ background-color: #bca266;
+ border-top: 0px !important;
+}
+.parraf-timeline{
+/* font-family: 'Open Sans', sans-serif; */
+  font-size: 14px;
+  text-align: left;
+  color: #ffffff;
+  opacity: 0.85;
+}
+#milestone-11 h4{
+  text-align: right;
+}
+#milestone-11 p{
+  text-align: right;
+}
+#milestone-13 h4{
+  text-align: right;
+  margin-left: -10px;
+}
+#milestone-13 p{
+  text-align: right;
+  margin-left: -10px;
+}
+#milestone-15 h4{
+  text-align: right;
+}
+.espacios{
+  height: 28px;
+}
+.espacios_sub{
+  height: 18px;
+}
+.group{
+  line-height: 1.2;
+}
+.con-imgvalor {
+    z-index: 999;
+    background: url(../images/family.png) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}

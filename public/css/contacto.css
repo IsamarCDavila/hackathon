@@ -1,0 +1,7 @@
+div.contact-section, div.distribuidor_tabla, p.subtitle-contact-table{
+  display: none;
+}
+.th_distribuidor{
+  text-align: center;
+  vertical-align: middle
+}

@@ -1,0 +1,396 @@
+#underage-cont {
+  display: none;
+}
+
+/*.checkbox-cont input[value="1"]:checked ~ .business-fields {
+	display: block;
+}*/
+.part1, .part2, .part3, .part4, .part5{
+  margin:0;
+}
+.part2 {
+    padding: 37px 0 33px 0;
+}
+.part4 {
+    padding: 36px 0 0 0;
+}
+.part5 {
+    padding: 15px 0 123px 0;
+}
+/* .part4 .form-file {
+  font-size: 12px;
+  text-align: left;
+  color: #767676;
+  display: flex;
+  align-items: center;
+} */
+.part4 .form-file {
+  font-size: 12px;
+  text-align: left;
+  color: #767676;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.part4 .form-file span {
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ font-size: 14px;
+ font-weight: 600;
+ text-align: left;
+ color: #7b6852;
+}
+.part4 .form-file small {
+  font-size: 12px;
+  text-align: left;
+  color: #767676;
+  margin-left: 12px;
+}
+.part4 .form-group.form-radio {
+    margin: 0 0 41px 0!important;
+}
+.part5 .row:first-child {
+    margin: 0 auto 32px auto;
+        max-width: 1015px;
+}
+.part5 .btn-send {
+    width: 128.4px;
+    height: 45.6px;
+    border: transparent;
+}
+.part5 .btn-cancel  {
+    width: 158.4px;
+    height: 45.6px;
+    border: transparent;
+    margin-left: 20px;
+    background-color: #afafaf;
+}
+.col-upload{
+    padding: 32px 15px 15px;
+}
+/* upload input */
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+      margin-left: 15px;
+}
+
+.btn-upload {
+  border: 2px solid transparent;
+  background-color: #7b6852;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  width: 112px;
+  height: 27px;
+}
+.upload-btn-wrapper input[type=file] {
+  /*font-size: 100px;*/
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.row.row-main-title{
+  margin:0;
+}
+.contendor-form .part1, .contendor-form .part3, .row-main-title, .main-title{
+    background-color: #ebece6;
+}
+.contendor-form .part2, .contendor-form .part4, .contendor-form .part5{
+ background-color: #fbfbfb;
+}
+.libroReclamos-cont .icon-plate-cont {
+    margin-bottom: 10px;
+}
+.libroReclamos-cont .modal-content {
+    background-color: #fff !important;
+}
+.beneficios-container .list_reclamos li p {
+    font-size: 14px;
+    color: #7b6851;
+}
+.list_reclamos li span {
+    background: #00529b;
+    display: inline-block;
+    zoom: 1;
+        width: 42px;
+    height: 27px;
+    border-radius: 27px;
+    overflow: hidden;
+    text-align: center;
+    font: bold 16px;
+    line-height: 27px;
+    color: #eafdf9;
+    vertical-align: top;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 5%;
+            flex: 1 0 5%;
+}
+.list_reclamos li p {
+    display: inline-block;
+    zoom: 1;
+    /*width: 540px;*/
+    vertical-align: top;
+    margin: 0 0 0 14px;
+    text-align: justify;
+}
+.list_reclamos li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.libroReclamos-cont  .modal-title {
+  /* font-family: 'Open Sans', sans-serif; */
+    font-weight: bold;
+    text-align: center;
+    color: #002e99;
+}
+/*.libroReclamos-cont .main-text-cont p{
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 100;
+}*/
+.libroReclamos-cont .main-text-cont span.txt-blue {
+    color: #87aaff;
+    cursor: pointer;
+}
+.libroReclamos-cont h2{
+    /* font-family: 'Open Sans', sans-serif; */
+    font-size: 41px;
+    font-weight: 800;
+    line-height: 1.02;
+    text-align: left;
+    color: #7b6851;
+}
+.bookForm-cont  h3, .bookForm-cont  h3 {
+  /* font-family: 'Open Sans', sans-serif; */
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    color: #afa16c;
+    margin-left: 15px;
+    margin-bottom: 32px;
+}
+
+.libroReclamos-cont .title-form{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+        margin-top: 30px;
+}
+.libroReclamos-cont .part1{
+  padding: 57px 0 62px 0;
+}
+.libroReclamos-cont .part3{
+    padding: 42px 0 62px 0;
+}
+.libroReclamos-cont hr{
+  border: solid 1px #dddddd;
+    max-width: 985px;
+margin-top: 30px;
+margin-bottom: 24px;
+}
+.bookForm-cont .form-group {
+    margin-bottom: 15px !important;
+}
+.bookForm-cont .txt-14 , .bookForm-cont .lbl{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color: #7b6851;
+}
+.book-form .row, .main-title{
+    max-width: 1015px;
+    margin: 0 auto;
+}
+.main-title {
+    float: none;
+}
+.bookForm-cont .part2 .form-checkbox p.lbl {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    color: #afa16c;
+}
+.bookForm-cont .selectCF{
+    width: 100%;
+}
+.bookForm-cont .selectCF .titleCF {
+    width: 80%!important;
+}
+/*.part2 .lbl{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  color: #afa16c;
+}*/
+.part2 .form-group.form-checkbox ,.part4 .form-group.form-radio{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+/* hide input */
+input.radio:empty {
+    display: none;
+}
+input[type=radio], .radio  {
+    margin-top: 0!important;
+}
+/* style label */
+input.radio:empty ~ label {
+  position: relative;
+  float: left;
+  text-indent: 27px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-bottom: 0;
+  color: #afa16c;
+}
+input.radio:checked ~ label {
+  color: #7b6851;
+  /*border: 1px solid #7b6851;*/
+}
+
+input.radio:empty ~ label, input.radio:checked ~ label {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+}
+input.radio:empty ~ label:before {
+  position: absolute;
+  display: block;
+  /*top: -1px;
+  bottom: 0;
+  left: -12.5px;*/
+  content: '';
+}
+.part5 input.radio ~ label:before {
+  /*width: 16px;
+  height: 16px;*/
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+}
+.part5 input.radio:empty ~ label:before {
+  border: 1px solid #afa16c;
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+}
+.part5 span {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: left;
+}
+.part5 input.radio:checked ~ label:before {
+  text-indent: -6px;
+/* padding: 9px; */
+text-indent: 2.5px;
+/* padding: 9px; */
+line-height: 15.5px;
+vertical-align: baseline;
+}
+/* toggle on */
+input.radio:checked ~ label:before {
+  content: '\2714';
+  text-indent: .9em;
+  color: #7b6851;
+  background-color: transparent;
+}
+.part5 input.radio:checked ~ label:before {
+  border: 1px solid #7b6851;
+  font-size: 12px;
+}
+/* parte 3*/
+.part4 div.radio-cont, .part2 div.checkbox-cont {
+  clear: both;
+  margin: 0 50px 0 0;
+}
+.part4 label, .part2 label {
+  width: 19px;
+  height: 19px;
+  border-radius: 4px;
+}
+
+/* style label */
+.part2 input.radio:empty ~ label {
+  border: 1px solid #afa16c;
+}
+.part2 input.radio:checked ~ label {
+  color: #7b6851;
+  border: 1px solid #7b6851;
+}
+
+.part2 input.radio:empty ~ label, .part2 input.radio:checked ~ label {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+}
+.part2 input.radio:empty ~ label:before {
+  position: absolute;
+  display: block;
+  top: -1px;
+  bottom: 0;
+  left: -12.5px;
+  content: '';
+}
+
+/* toggle on */
+.part2 input.radio:checked ~ label:before {
+    content: '\2714';
+    text-indent: .9em;
+    color: #7b6851;
+    background-color: transparent;
+
+}
+
+/* style label */
+.part4 input.radio:empty ~ label {
+  border-radius: 50%;
+  border: 1px solid #afa16c;
+}
+.part4 input.radio:checked ~ label {
+  color: #7b6851;
+  border: 1px solid #7b6851;
+}
+
+.part4 input.radio:empty ~ label, .part4 input.radio:checked ~ label {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+}
+.part4 input.radio:empty ~ label:before {
+  position: absolute;
+  display: block;
+  top: -1px;
+  bottom: 0;
+  left: -12.5px;
+  content: '';
+}
+
+/* toggle on */
+.part4 input.radio:checked ~ label:before {
+  content: '\25CF';
+  text-indent: 0.4em;
+  color: #7b6851;
+  background-color: transparent;
+  font-size: 30px;
+  top: -14px;
+}

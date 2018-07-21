@@ -1,0 +1,29 @@
+div.menu-nosotros, div.menu-puntos-vta, div.bloque_4{
+  display: none;
+}
+div.bloque_3 .titulo_db{
+  text-align:left;
+}
+div.bloque_3 .descripcion_db{
+  font-size:20px;
+  text-align:left;
+}
+div.bloque_3 .row-buscador .btn-buscar{
+  padding: 10px 34px;
+}
+div.mito img{
+  height:200px;
+}
+p.trabajaestilo{
+  letter-spacing: -0.5px;
+  font-size: 14px;
+  text-align: left;
+  color: #7b6852;
+  padding-bottom: 49px;
+}
+@media (max-width: 767px) {
+.visibility_xs{
+ display: none !important;
+
+}
+}

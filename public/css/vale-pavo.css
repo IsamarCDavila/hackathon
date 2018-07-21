@@ -1,0 +1,1827 @@
+
+.secondrow-step2 .scrollbar::-webkit-scrollbar-track
+{
+    border-radius: 10px;
+  background-color: #d1d1d1;
+}
+
+.secondrow-step2 .scrollbar::-webkit-scrollbar
+{
+width: 12px;
+background-color: #F5F5F5;
+}
+
+.secondrow-step2 .scrollbar::-webkit-scrollbar-thumb
+{
+  width: 7px;
+     border-radius: 3.5px;
+     background-color: #878787;
+
+}
+
+.secondrow-step2 .col-qty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  overflow: auto;
+  height: 168px;
+  overflow-y: auto;
+}
+.modal-overlay {
+    position: absolute!important;
+    /*-webkit-backface-visibility: hidden!important;
+    -webkit-transition-timing-function: ease-in-out!important;
+    transition-timing-function: ease-in-out!important;
+    -webkit-transition-property: all!important;
+    transition-property: all!important;
+        -webkit-overflow-scrolling: touch!important;
+        -webkit-transition-duration: .3s!important;
+transition-duration: .3s!important;*/
+top: 0!important;
+bottom: 0!important;
+left: 0!important;
+right: 0!important;
+margin: auto!important;
+z-index: 9999;
+overflow-x: hidden;
+}
+
+.shown {
+  display: block!important;
+}
+.hidden {
+  display: none!important;
+}
+.home-container {
+  overflow-x: hidden;
+}
+ol {
+    margin-bottom: 0;
+}
+.hero-pavo{
+  background: url('../images/hero-pavo.jpg') no-repeat center center; background-size: cover;
+  /*height: 590px;*/
+  height: 100vh;
+}
+.overlay {
+  opacity: 0.72;
+  background-color: #0e0d0d;
+}
+#navbar-primary .navbar-nav {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#navbar-primary .navbar-nav > li {
+  display: inline-block;
+  float: none;
+  margin-right: 15px;
+}
+#navbar-primary .navbar-nav > li > a {
+  /*padding-left: 30px;
+  padding-right: 30px;*/
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  color: #ffffff;
+  height: 44px;
+width: 100px;
+}
+#navbar-primary .navbar-nav > li > a.logo-min {
+    padding: 0;
+}
+#navbar-primary .navbar-nav > li.active {
+    padding: 0;
+}
+.header-pavo .menu-label {
+    margin: 5px -2px 0 auto;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+.header-pavo .navbar-fixed-top .menu-label {
+    color:#023193;
+}
+.header-pavo .navbar-fixed-top {
+  background: white;
+  box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.03);
+}
+.header-pavo .navbar-fixed-top .nav>li>a{
+      color: #0338b4!important;
+}
+/* .header-pavo .navbar-fixed-top .logo-main {
+      min-height: 98px;
+  position: relative;
+  top: 0;
+  z-index: 9999;
+  width: 150px;
+  margin: 0 auto;
+}
+.header-pavo .logo-main {
+    min-height: 162px;
+    width: 250px;
+    position: relative;
+} */
+.header-pavo .logo-main {
+      min-height: 98px;
+  position: relative;
+  top: 0;
+  z-index: 9999;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.header-pavo a.logo {
+    padding: 0;
+}
+.header-pavo .nav>li>a:hover, .header-pavo .nav>li>a:focus,
+.header-pavo .nav>li>a:visited {
+    background-color: transparent;
+}
+.header-pavo .nav li a:hover:after, .blue-underline{
+  display: block;
+      clear: both;
+      content: "";
+      position: relative;
+      left: 50%;
+      bottom: -5px;
+      cursor: pointer;
+      pointer-events: none;
+      width: 77px;
+      border-bottom: 2px solid #0338b4;
+      transform: translateX(-56%);
+}
+.header-pavo .nav li a[href="#pavicar"]:hover:after {
+    transform: translateX(-50%);
+}
+.header-pavo .nav li a.logo-min:hover:after, .header-pavo .nav li a.logo:hover:after{
+  content:none;
+}
+.hero-pavo h1 {
+  font-size: 78px;
+  font-weight: bold;
+  line-height: 0.85;
+  text-align: center;
+  color: #bda362;
+}
+.hero-pavo p {
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  margin: 24px auto 40.5px auto;
+}
+.hero-pavo a.btn-red {
+  padding: 14.5px 65px;
+}
+.header-pavo .logo-main .logo-min img {
+    margin: -2px auto;
+      min-height: 60px;
+}
+.hero-container {
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+/* Cotizacion */
+.background-cotizacion {
+  background-color: #ebece6;
+  padding: 60px 0;
+}
+.cd-horizontal-timeline {
+  opacity: 0;
+  /*margin: 2em auto;*/
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+.cd-horizontal-timeline::before {
+  /* never visible - this is used in jQuery to check the current MQ */
+  content: 'mobile';
+  display: none;
+}
+.cd-horizontal-timeline.loaded {
+  /* show the timeline after events position has been set (using JavaScript) */
+  opacity: 1;
+}
+.cd-horizontal-timeline .timeline {
+  position: relative;
+  height: 100px;
+  width: 90%;
+  max-width: 80px;
+  margin: 0 auto;
+}
+#step1{
+    left: 6px!important;
+}
+#step2{
+    left: 40px!important;
+}
+#step3{
+    left: 74px!important;
+}
+.cd-horizontal-timeline .events-wrapper {
+  position: relative;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.cd-horizontal-timeline .events-wrapper::after, .cd-horizontal-timeline .events-wrapper::before {
+  /* these are used to create a shadow effect at the sides of the timeline */
+  /*content: '';
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  height: 100%;
+  width: 20px;*/
+}
+.cd-horizontal-timeline .events {
+  /* this is the grey line/timeline */
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 49px;
+  height: 2px;
+  /* width will be set using JavaScript */
+  background: #cdcdcd;
+  -webkit-transition: -webkit-transform 0.4s;
+  -moz-transition: -moz-transform 0.4s;
+  transition: transform 0.4s;
+}
+.cd-horizontal-timeline .filling-line {
+  /* this is used to create the green line filling the timeline */
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  /*background-color: #7b6851;*/
+  -webkit-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -o-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -ms-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  transition: transform 0.3s;
+}
+.cd-horizontal-timeline .events a {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  text-align: center;
+  font-size: 1.3rem;
+  padding-bottom: 15px;
+  color: #383838;
+  /* fix bug on Safari - text flickering while timeline translates */
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.cd-horizontal-timeline .events a::after {
+  /* this is used to create the event spot */
+  content: '';
+  position: absolute;
+  left: 50%;
+  right: auto;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: -5px;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  border: 2px solid #cdcdcd;
+  background-color: #cdcdcd;
+  -webkit-transition: background-color 0.3s, border-color 0.3s;
+  -moz-transition: background-color 0.3s, border-color 0.3s;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+.no-touch .cd-horizontal-timeline .events a:hover::after {
+  background-color: #7b6851;
+  border-color: #7b6851;
+}
+.cd-horizontal-timeline .events a.selected {
+  pointer-events: none;
+}
+.cd-horizontal-timeline .events a.selected::after {
+  background-color: #7b6851;
+  border-color: #7b6851;
+}
+.cd-horizontal-timeline .events a.active-event::after {
+    border: 2px solid #7b6851;;
+    background-color: #7b6851;
+}
+@media only screen and (min-width: 1100px) {
+  .cd-horizontal-timeline {
+    /*margin: 60px auto;*/
+  }
+  .cd-horizontal-timeline::before {
+    /* never visible - this is used in jQuery to check the current MQ */
+    content: 'desktop';
+  }
+}
+
+.cd-timeline-navigation a {
+  /* these are the left/right arrows to navigate the timeline */
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  bottom: auto;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  border: 2px solid #dfdfdf;
+  /* replace text with an icon */
+  overflow: hidden;
+  color: transparent;
+  text-indent: 100%;
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s;
+  -moz-transition: border-color 0.3s;
+  transition: border-color 0.3s;
+}
+.cd-timeline-navigation a::after {
+  /* arrow icon */
+  content: '';
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(../img/cd-arrow.svg) no-repeat 0 0;
+}
+.cd-timeline-navigation a.prev {
+  left: 0;
+  -webkit-transform: translateY(-50%) rotate(180deg);
+  -moz-transform: translateY(-50%) rotate(180deg);
+  -ms-transform: translateY(-50%) rotate(180deg);
+  -o-transform: translateY(-50%) rotate(180deg);
+  transform: translateY(-50%) rotate(180deg);
+}
+.cd-timeline-navigation a.next {
+  right: 0;
+}
+.no-touch .cd-timeline-navigation a:hover {
+  border-color: #7b9d6f;
+}
+.cd-timeline-navigation a.inactive {
+  cursor: not-allowed;
+}
+.cd-timeline-navigation a.inactive::after {
+  background-position: 0 -16px;
+}
+.no-touch .cd-timeline-navigation a.inactive:hover {
+  border-color: #dfdfdf;
+}
+
+.cd-horizontal-timeline .events-content {
+  position: relative;
+  width: 100%;
+  /*margin: 2em 0;*/
+  overflow: hidden;
+  -webkit-transition: height 0.4s;
+  -moz-transition: height 0.4s;
+  transition: height 0.4s;
+  height: auto!important;
+}
+.cd-horizontal-timeline .events-content ol > li {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  left: 0;
+  top: 0;
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
+  padding: 0 5%;
+  opacity: 0;
+  -webkit-animation-duration: 0.4s;
+  -moz-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
+.cd-horizontal-timeline .events-content ol > li.selected {
+  /* visible event content */
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+}
+.cd-horizontal-timeline .events-content li.enter-right, .cd-horizontal-timeline .events-content li.leave-right {
+  -webkit-animation-name: cd-enter-right;
+  -moz-animation-name: cd-enter-right;
+  animation-name: cd-enter-right;
+}
+.cd-horizontal-timeline .events-content li.enter-left, .cd-horizontal-timeline .events-content li.leave-left {
+  -webkit-animation-name: cd-enter-left;
+  -moz-animation-name: cd-enter-left;
+  animation-name: cd-enter-left;
+}
+.cd-horizontal-timeline .events-content li.leave-right, .cd-horizontal-timeline .events-content li.leave-left {
+  -webkit-animation-direction: reverse;
+  -moz-animation-direction: reverse;
+  animation-direction: reverse;
+}
+.cd-horizontal-timeline .events-content li > * {
+  /*max-width: 713px;*/
+  /*max-width: 750px;
+  margin: 0 auto;*/
+}
+/*.cd-horizontal-timeline .events-content > li > * {
+  margin: 0 auto;
+}*/
+.step1{
+  max-width: 750px;
+  margin: 0 auto;
+}
+.firstrow-step2{
+  max-width: 908px;
+  margin: 78px auto 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: none;
+}
+.cd-horizontal-timeline .events-content .tipo-vale-select p,
+.secondrow-step2 p{
+  font-size: 14px!important;
+  font-weight: bold;
+  text-align: left!important;
+  color: #7b6851;
+  margin-top: 0;
+  margin-bottom: 11px;
+}
+.firstrow-step2 .prod-cont{
+  width: 115px;
+  height: 75px;
+  margin-top: -11px;
+}
+.firstrow-step2 .second-prod {
+    /*margin-left: 95px;*/
+}
+.tipo-vale-select {
+    /*margin-left: 28px;*/
+}
+.vale-qty-cont div p, .paneton-qty-cont div p{
+    font-size: 14px!important;
+    text-align: left!important;
+    color: #bca266!important;
+    font-weight: normal!important;
+}
+#paneton_qty p, #vale_qty p{
+    font-size: 14px;
+    text-align: left;
+    color: #bca266;
+    font-weight: 100;
+}
+.qty-bold {
+  font-size: 16px;
+  font-weight: bold;
+}
+#sum {
+  font-size: 18px;
+  font-weight: bold;
+}
+.paneton-input-qty {
+    text-align: right;
+    position: absolute;
+    right: 16%;
+    bottom: 17%;
+}
+.row-step2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.secondrow-step2{
+  max-width: 773px;
+  margin: 39px auto 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.paneton-qty-cont{
+    /*margin-left: 32%;*/
+}
+.vale-qty-cont {
+    /*margin-left: 90px;*/
+        height: auto!important;
+}
+.secondrow-step2 div.cantidad-cont{
+    /*margin-left: 95px;*/
+}
+.secondrow-step2 .col-qty{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.cd-horizontal-timeline .events-content h2 {
+  font-size: 46px;
+  font-weight: bold;
+  line-height: 0.87;
+  text-align: center;
+  color: #003296;
+}
+.cd-horizontal-timeline .events-content p {
+  line-height: 1.6;
+  font-size: 18px;
+  text-align: center;
+  color: #7b6851;
+  margin-top: 18px;
+}
+.cd-horizontal-timeline .events-content small {
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  color: #7b6851;
+  margin: 41px auto 36px auto;
+}
+.btn-next-cont  {
+  padding: 19.5px 73px;
+}
+.btn-next-cont .btn-red{
+  padding: 19.5px 73px;
+  font-size: 22px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 100;
+  width: auto;
+  height: auto;
+  border: 0px;
+  box-shadow: none;
+}
+.btn-next-cont .btn-red i {
+    margin-left: 16px;
+}
+@-webkit-keyframes cd-enter-right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+  }
+}
+@-moz-keyframes cd-enter-right {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0%);
+  }
+}
+@keyframes cd-enter-right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+}
+@-webkit-keyframes cd-enter-left {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+  }
+}
+@-moz-keyframes cd-enter-left {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0%);
+  }
+}
+@keyframes cd-enter-left {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+}
+/*productos */
+.design{
+position: absolute;
+right: 20px;
+bottom: 20px;
+font-size: 12px;
+opacity: .1;
+}
+
+/* Style product */
+.product-items{
+width: 100%;
+    margin-bottom: 52px;
+}
+.seleccionado{
+  border: solid 4px #bca266!important;
+  color: #7b6851!important;
+  transition: .1s all;
+}
+.product-items .product-item {
+  display: inline-block;
+  text-align: center;
+  margin-right: 50px;
+  width: 328px;
+  height: 296px;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #c3c0bd;
+  border: solid 4px transparent;
+  cursor:pointer;
+}
+.product-items .product-item:last-child{
+margin-right: 0;
+}
+.product-items .product-item  .item-wrap{
+  margin: 20px 50px 44px 50px;
+  height: 157px;
+}
+.product-items .product-item .item-info{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+   -webkit-box-pack: justify;
+       -ms-flex-pack: justify;
+           justify-content: space-between;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   margin: 30px 25px 0 25px;
+}
+.product-items .product-item .item-info .item-title{
+  font-size: 16px;
+  font-weight: 600;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.product-items .product-item .item-info .item-price{
+  font-size: 15px;
+  color: #4DC3C7;
+  font-size: 23.2px;
+  color: #ffffff;
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  background-color: #bca266;
+}
+/* fin roductos */
+
+ul.info{
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+ul.info li{
+  display: inline-block;
+  border: solid 1px #FFF;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+#event-change{
+padding: 3px 0;
+font-size: 14px;
+text-align: left;
+color: #bca266;
+}
+.custom-link{
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  color: #FFF;
+  font-size: 12px;
+  text-decoration: none;
+  transition: .3s;
+  -webkit-transition: .3s;
+  /* font-family: 'Oswald', sans-serif; */
+  font-size: 20px
+}
+li[data-date="20/04/2014"] ul.selectCF {
+    width: 100%;
+}
+li[data-date="20/04/2014"] .selectCF .titleCF {
+    padding: 0 10px 0 20px;
+    display: inline-block;
+    height: 33px;
+    line-height: 31px;
+    z-index: 1;
+    font-size: 14px;
+    text-align: left;
+    color: #bca266;
+    background: #fff;
+    width: 260px!important;
+}
+/* Fin Select */
+.cantidad-cont .qty-input-cont button {
+  display: none;
+    background: transparent;
+    border: 0;
+    font-size: 20px;
+    color: #aeaeae;
+        margin-left: 30px;
+}
+.btn-close-qty {
+  display: none;
+  background: transparent;
+  border: 0;
+  font-size: 20px;
+  color: #aeaeae;
+  margin-left: 30px;
+  position: absolute;
+}
+.cantidad-cont-paneton div input, .cantidad-cont-vale div input {
+  width: 53px;
+  height: 31px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: #bca266;
+  border: 0px;
+}
+.qty-input-cont{
+  margin-bottom: 10px !important;
+}
+.secondrow-step2 .cantidad-cont .qty-input-cont input[type=number]  {
+  border: 0;
+  width: 53px;
+  height: 31px;
+  background-color: #ffffff;
+}
+
+/* formulario cotizacion */
+.contendor-form {
+    max-width: 668px;
+    float: none;
+    margin: 0 auto;
+}
+.cd-horizontal-timeline .events-content p.lbl{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color: #7b6852;
+}
+.cd-horizontal-timeline .events-content p:last-child {
+    text-align: right;
+    font-size: 12px;
+}
+.controls .form-control{
+    padding: 11px 0 14px 21px!important;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.06)!important;
+    border: 1px solid transparent!important;
+    font-size: 14px;
+    text-align: left;
+    color: #bca266;
+}
+input::-webkit-input-placeholder, input::-moz-placeholder, input:-ms-input-placeholder ,  input:-moz-placeholder, input::placeholder {
+  /* font-family:'Open Sans', sans-serif!important; */
+  font-size: 14px!important;
+  text-align: left!important;
+  color: #dcdcdc!important;
+}
+/* fin de formulario cotizacion */
+.msj-container {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 1240px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+}
+.cd-horizontal-timeline .events-content p.msj-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #7b6852;
+    /* margin-top: 100px; */
+}
+.msj-paragraph {
+    font-size: 14px;
+    text-align: center;
+    color: #bca266;
+    margin: 12px auto 28px;
+}
+.msj-info {
+    padding: 23px 143px;
+    background-color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.msj-info p.cotizacion-title {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #7b6852;
+  margin: 0 auto 12px;
+}
+.msj-info ul.info-list li{
+    font-size: 14px;
+    text-align: left;
+    color: #bca266;
+}
+/* fin de cotizacion */
+
+
+/* Inicio de Nuestros Beneficios */
+.beneficios-container .content-table {
+    padding-top: 43px;
+    padding-bottom: 84px;
+    background-color: #fff;
+}
+.vales-col {
+    padding-left: 59px;
+}
+.row-nav{
+  max-width: 520px;
+  margin:0 auto;
+}
+.beneficios-container h2, .pavicar-container h2 {
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    color: #002e99;
+    margin-top: 54px;
+}
+.beneficios-container p, .canjear-container p, .pavicar-container p   {
+    font-size: 18px;
+    text-align: center;
+    color: #7b6851;
+}
+.beneficios-container #exTab1 p {
+  font-size: 14px;
+  margin: 26px auto 32px;
+  text-align: left;
+}
+.beneficios-container #exTab1 p:first-of-type {
+    text-align: center;
+}
+.beneficios-container .tab-content {
+    border-radius: 6px;
+    background-color: #f7f7f7;
+    padding: 38px 0 47px 0;
+}
+.beneficios-container #exTab1 p.txt-bold {
+    font-size: 14px;
+    margin: 0 auto 18px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    color: #483927;
+}
+.beneficios-container #exTab1 span.txt-blue {
+    color: #5184fe;
+    cursor:pointer;
+}
+.beneficios-container .tab-content li {
+    font-size: 14px;
+    color: #7b6851;
+}
+.beneficios-container .tab-content small {
+    font-size: 12px;
+    color: #7b6851;
+}
+.beneficios-container .cotizacion-btn-cont button {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    color: #ed2b14;
+    /* font-family: 'Open Sans', sans-serif; */
+    background-color: transparent!important;
+    border-color: transparent!important;
+}
+.beneficios-container .cotizacion-btn-cont button:after {
+    display: block;
+    clear: both;
+    content: "";
+    position: relative;
+    left: 0;
+    bottom: 0;
+    max-width: 146px;
+    height: 1px;
+    border-bottom: 3px solid #ed2b14;
+    margin-top: 3px;
+  }
+  .beneficios-container .modal-title {
+    font-weight: bold;
+    text-align: center;
+    color: #002e99;
+}
+.beneficios-container .modal-content {
+    background-color: #fff !important;
+}
+.beneficios-container #exTab1 .nav-pills > li.active > a[href$="#1a"], #exTab1 .nav-pills > li.active > a[href$="#lima"],
+.beneficios-container #exTab1 .nav>li>a[href$="#1a"]:hover, #exTab1 .nav>li> a[href$="#lima"]:hover {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 0;
+  }
+  .beneficios-container #exTab1 .nav-pills > li.active > a[href$="#2a"], #exTab1 .nav-pills > li.active > a[href$="#provincias"],
+  .beneficios-container #exTab1 .nav>li>a[href$="#2a"]:hover, #exTab1 .nav>li> a[href$="#provincias"]:hover {
+      border-top-left-radius: 0;
+      border-top-right-radius: 4px;
+    }
+.beneficios-container  ul.list-ubicacion, .canjear-container ul.list-ubicacion {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.beneficios-container .paneton-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+/* Fin de Nuestros Beneficios */
+/* Inicio de Seccion Canjear */
+.canjear-container  {
+  background-color: #012e88;
+  height: 100vh;
+  /* padding-top: 62px; */
+  /* padding-bottom: 56px; */
+}
+.canejar-content{
+    padding-top: 20px;
+}
+.canjear-col {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.mapa-canjear {
+  position: relative;
+  overflow: hidden;
+  height: 515px;
+}
+.canjear-container h2 {
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 0.87;
+    text-align: center;
+    color: #bca266;
+    /*margin: 62px auto 15px;*/
+}
+.canjear-container p.txt-bold {
+  font-weight: bold;
+  color: #483927!important;
+}
+.canjear-container .info-location-content p:nth-child(3) {
+    margin-top: 22px;
+}
+.canjear-container .info-location-content p:nth-child(5), .canjear-container .info-location-content p:nth-child(7) {
+    margin-top: 20px;
+}
+.canjear-container .info-location-content p:nth-child(9) {
+    margin-top: 16px;
+  }
+.canjear-container .info-location-content p {
+    font-size: 14px;
+    text-align: left;
+    color: #7b6851;
+}
+.canjear-container p.lugares-txt{
+    margin: 15px auto 43px;
+}
+.canjear-container .info-location-content {
+    padding: 50px 30px 0 26px;
+}
+.canjear-container .row-nav {
+    max-width: 500px;
+    margin: 0 auto 43px auto;
+}
+.canjear-container .filtro-input {
+    padding: 0 20px 0 0;
+    box-shadow: none;
+    height: auto;
+    background-color: transparent;
+}
+.canjear-container .myinput {
+    height: 40px;
+}
+.canjear-container .ico-search {
+    margin-top: 4%;
+}
+.canjear-container .ico-search img {
+    height: 20px;
+}
+.canjear-container .filtro-buscador {
+    display: inline-block;
+}
+.canjear-container .filtro-buscador span {
+  /* font-family: 'Roboto'; */
+    font-size: 14px;
+    text-align: left;
+}
+.canjear-container .padd-left1{
+    padding-left: 38px;
+}
+.canjear-container .padd-left2{
+    padding-left: 50px;
+}
+.canjear-container  .tienda {
+    color: #00257a;
+}
+.canjear-container  .agente{
+    color: #7b6852;
+}
+.canjear-container .minimarkert{
+    color: #00B2E9;
+}
+.canjear-container .multimarket {
+   color: #ef2700;
+}
+.canjear-container .pavicar {
+   color: #37B841;
+}
+.canjear-container .filtro {
+  width: auto;
+  /* left: unset; */
+  transform: unset;
+  margin: 36px 0 0 21px;
+}
+.canjear-container  div.filtro-li {
+  padding: 8px 0px 0 38px;
+  height: 38px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.17);
+}
+.canjear-container .filtro-buscador a {
+    opacity: 1;
+}
+/* Fin de Seccion Canjear */
+
+/*Inicio Pavicar */
+.pavicar-container .image-holder p.txt-bold {
+    font-weight: bold;
+    color: #002b8a;
+        margin-bottom: 4px;
+}
+.pavicar-container .image-holder p {
+  color: #7b6851;
+  font-size: 14px;
+  text-align: right;
+}
+.pavicar-container .image-holder:first-child p {
+  text-align: left;
+}
+.pavicar-container p.pavicar-paragraph{
+    margin-bottom: 54px;
+}
+.row-pavicar {
+    max-width: 950px;
+    margin: 0 auto;
+}
+.pavicar-container .row-fecha {
+    height: 364px;
+    background-color: #bda362;
+        margin-top: -225px;
+}
+.pavicar-container .row-fecha p:first-child {
+    margin-top: 229px;
+}
+.pavicar-container .row-fecha p {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.31;
+  text-align: center;
+  color: #ffffff;
+}
+.pavicar-container .row-fecha small {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+      display: block;
+}
+.pavicar-container .modal-body {
+    padding: 0 15px 15px 15px;
+}
+.pavicar-container .modal-header {
+    padding: 7px 15px 0 15px;
+    border-bottom: 0px solid #e5e5e5;
+}
+/*Body of the Panel when it expands*/
+.panel {
+    margin-top: 19px;
+}
+.panel .panel-body {
+    position: relative;
+    padding: 0 !important;
+    overflow: hidden;
+    height: auto;
+}
+
+/*Image size and transition*/
+.panel .panel-body a img {
+    display: block;
+    margin: 0;
+    width: 100%;
+    /*height: 150px;*/
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+/*Transform scale effect when you hover over*/
+.panel .panel-body a.zoom:hover img {
+    transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+}
+
+/*Zoom Button*/
+.panel .panel-body a.zoom span.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0;
+    transition: opacity .25s ease-out;
+    -moz-transition: opacity .25s ease-out;
+    -webkit-transition: opacity .25s ease-out;
+    -o-transition: opacity .25s ease-out;
+}
+
+/*Zoom Button and Tint Overlay*/
+.panel .panel-body a.zoom:hover span.overlay {
+    display: block;
+    visibility: visible;
+    opacity: 0.55;
+    -moz-opacity: 0.55;
+    -webkit-opacity: 0.55;
+    filter: alpha(opacity=65);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+}
+
+/*Zoom Button*/
+.panel .panel-body a.zoom:hover span.overlay i {
+    position: absolute;
+    top: 45%;
+    left: 0%;
+    width: 100%;
+    font-size: 2.25em;
+    color: #fff !important;
+    text-align: center;
+    opacity: 1;
+    -moz-opacity: 1;
+    -webkit-opacity: 1;
+    filter: alpha(opacity=1);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+}
+#lightbox .modal-content {
+    display: inline-block;
+    text-align: center;
+}
+/* Fin Pavicar */
+
+/* Inicio de receta pavo */
+.receta-pavos{
+    background-color: #ebece6;
+}
+.receta-pavos .recetaDetalle-cont {
+  padding: 63px 0;
+  background-color: #ebece6;
+  position: relative;
+}
+.receta-pavos .cont-relacionadas {
+    display: block;
+}
+.receta-pavos .lista-ingredientes {
+  padding-top: 37px;
+  height: 489px;
+  border-radius: 4px;
+  background-color: #bca266;
+  display: block;
+}
+.recipe-container h2 {
+  margin: 60px 0 35px 10px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #7b6852;
+  line-height: 1.7;
+}
+.recipe-container h2:after {
+  position: relative;
+  left: 0;
+  bottom: -5px;
+  width: calc(100% + 45px);
+  display: block;
+  clear: both;
+  content: "";
+  border: solid 1px #979797;
+}
+.receta-pavos .title-recipe img.icon-plate-cont {
+  padding: 0 10px 2px 0;
+  float: left;
+}
+.receta-pavos .title-recipe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+}
+.receta-pavos .todos-ingredientes .contenedor-ingredientes {
+  height: 210px;
+  overflow: auto;
+  width: calc(100% - 22px);
+  margin-left: 22px;
+}
+.receta-pavos .receta-relacionada{
+  font-size: 46px;
+  font-weight: bold;
+  text-align: center;
+  color: #00299c;
+}
+.receta-pavos .parraf-relacionada{
+  font-size: 16px;
+  line-height: 1.44;
+  text-align: center;
+  color: #7b6851;
+  margin-top: 7px;
+  padding: 0;
+}
+.receta-pavos .tit-recrec{
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  color: #7b6852;
+  /* font-family: 'Open Sans', sans-serif; */
+}
+.receta-pavos .recetaDetalle-cont h1{
+  font-size: 46px;
+  font-weight: bold;
+  text-align: center;
+  color: #00299c;
+  margin: 10px auto 10px;
+}
+.receta-pavos .recetaDetalle-cont h4 {
+  margin: 0 auto 11px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-bottom: 0;
+}
+.receta-pavos .recipe-container p {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+/*.receta-pavos .recetaDetalle-cont p.subtitle {
+    font-size: 14px;
+    color: #ffffff;
+        margin-bottom: 29px;
+}
+.receta-pavos .ingredientes:after {
+    content: none;
+}
+.tabs-turkeys>li.active>a, .tabs-turkeys>li.active>a:focus, .tabs-turkeys>li.active>a:hover, .tabs-turkeys>li>a:hover {
+    cursor: default;
+    padding: 5.5px 0;
+    background-color: #d8d8d8;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: #4e4e4e!important;
+}
+.tabs-turkeys>li>a {
+    padding: 5.5px 0;
+    background-color: #9c8348;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: #d8d8d8;
+    border-radius: 0px;
+    border: 0px;
+}
+.tabs-turkeys {
+    border-bottom: 0px solid #ddd;
+}
+.active .triangulo-pavo {
+    position: absolute;
+        top: 96% !important;
+    right: 44%!important;
+    display: inline-block;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #d8d8d8;
+    border-left: 6px solid transparent;
+    border-bottom-color: #d8d8d8;
+    content: '';
+}
+.receta-pavos .col-video {
+    z-index: 5;
+    margin-right: -24px;
+}
+.receta-pavos  .todos-ingredientes {
+    width: calc(100% - 115px);
+    margin-left: 53px;
+}
+.receta-pavos .detalleingrediente li{
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: left;
+    color: #ffffff;
+}
+.receta-pavos .detalleingrediente ul {
+    margin-top: 29px;
+}*/
+.receta-pavos .recipe-container {
+     display: block;
+      background-color: #fff;
+}
+.receta-pavos .detalle-receta {
+    margin: 0 auto 0 80px;
+}
+.main-title-cont{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.row-main-title, .contacto-valepavo .close-btn-cont{
+  max-width: 940px;
+  margin: 0 auto;
+}
+.receta-pavos .close-pavo-recipe, .close-formContacto{
+  font-size: 43px;
+  color: #b39777;
+  width: 65px;
+  height: 65px;
+  background-color: #e1e3d8;
+  border-radius: 50%;
+  border: 0px;
+}
+.contacto-valepavo .close-btn-cont, .recetaDetalle-cont  .close-btn-cont{
+  text-align: right;
+  top: 26px;
+  position: relative;
+}
+.recetaDetalle-cont  .close-btn-cont{
+  right: -15%;
+}
+.receta-pavos  .cont-recetarelacionada {
+  padding: 44px 0 0 0;
+}
+.recetaDetalle-pavo{
+  display: none;
+}
+.receta-pavos .recetas-rel-shadow {
+  padding: 63px 0 79px 0;
+}
+.recipe-content li {
+  font-size: 14px;
+  line-height: 2.36;
+  text-align: left;
+  color: #7a6751;
+  padding-left: 5px;
+}
+.recipe-content ul {
+  padding-left: 44px;
+}
+.recipe-content ol {
+  padding-left: 40px;
+}
+.receta-pavos .recipe-container {
+  padding: 0 0 64px 0;
+}
+.receta-pavos .row1, .receta-pavos .row2 {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.receta-pavos .recetas-relacionadas .row1{
+  max-width: 868px;
+}
+.receta-pavos .recetas-relacionadas .row2 {
+  max-width: 1160px;
+}
+.receta-pavos .recetas-relacionadas span {
+  /* font-family: 'ACaslonPro'; */
+  font-size: 49px;
+  font-weight: bold;
+  color: #bda362;
+}
+.receta-pavos .recetas-relacionadas p{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.19;
+  color: #ffffff;
+}
+.receta-pavos .recetas-relacionadas .blue-card img{
+  position: absolute;
+  right: 16px;
+  top: 73px;
+}
+.receta-pavos .recetas-relacionadas .blue-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 103px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 284px;
+          flex: 1 0 284px;
+  border-radius: 4px;
+  background-color: #012e88;
+  margin: 18.5px 4px;
+  position: relative;
+  cursor:pointer;
+}
+.receta-pavos .row-img-pavo {
+  height: 250px;
+  position: relative;
+}
+.receta-pavos .row-white-bg {
+    max-width: 940px;
+    margin: 0 auto;
+}
+.receta-pavos .redes-receta {
+  background-color: #fff;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.receta-pavos .row-white-bg .mid-icon {
+  position: absolute;
+  left: 50%;
+  margin-top: 20px;
+  transform: translateX(-50%);
+  width: 48px;
+  height: 48px;
+  background-color: #bda362;
+  border-radius: 50%;
+  z-index: 1;
+}
+.frame-baked{
+  margin-right: 12px;
+}
+.frame-baked{
+  margin-left: 12px;
+}
+.frame-dressing, .frame-baked{
+  padding: 20px 34px 0 34px;
+  border: solid 1px #f2f2f2;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+}
+.receta-pavos .recipe-content {
+  max-width: 785px;
+  margin: 0 auto;
+}
+.receta-pavos .recipe-content .row{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.receta-pavos .row-img-pavo h2 {
+  font-size: 27px;
+  font-weight: 800;
+  text-align: center;
+  color: #ffffff;
+  /* font-family: 'Open Sans', sans-serif; */
+}
+.receta-pavos .row-img-pavo p {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.18;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #ffffff;
+}
+.receta-pavos .row-img-pavo .title-cont{
+  position: absolute;
+  top: 108px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+}
+ol.dashed > li:before {
+  display: inline-block;
+  content: "-";
+  width: 1em;
+  margin-left: -0.65em;
+}
+.pavo-hierbas .frame-dressing {
+    padding: 0;
+    border: solid 0px #f2f2f2;
+}
+/* fin de receta pavo */
+
+/* contacto */
+.pre-footer-valepavo .row{
+    margin-top: 75px;
+    margin-bottom: 52px;
+}
+.col-btn-contacto{
+    text-align: center;
+}
+.btn-footer{
+    cursor: pointer;
+  border-radius: 61px;
+  background-color: #f5f5f4;
+  padding: 17.5px 33px;
+  display: inline-block;
+}
+.btn-footer:first-child {
+    margin-right: 20px;
+}
+.btn-footer a i {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: 8px;
+}
+.btn-footer a {
+    font-size: 16px;
+    text-align: left;
+    color: #7b6851;
+}
+.btn-contacto i {
+    background-color: #da3d0e;
+    padding: 10px 11px;
+}
+.btn-facebook i {
+    background-color: #34589a;
+    padding: 12px 14px;
+}
+.cont-footer .row-global{
+  display: none;
+}
+/*contacto-valepavo */
+.contacto-valepavo{
+    padding: 108px 0 83px 0;
+    background-color: #ebece6;
+}
+.contacto-valepavo h2 {
+  font-size: 46px;
+  font-weight: bold;
+  text-align: center;
+  color: #7b6852;
+  margin: 0 auto;
+}
+.contacto-valepavo p {
+  font-size: 16px;
+  line-height: 1.44;
+  text-align: center;
+  color: #7b6851;
+}
+
+.contacto-valepavo .white-background {
+  width: 667px;
+  height: 126px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin: 33px auto 0;
+  float: none;
+  padding: 28px 0;
+}
+.contacto-valepavo .white-background p, .contacto-valepavo p.lbl  {
+    font-size: 14px;
+}
+.contacto-valepavo p.lbl  {
+font-size: 14px;
+font-weight: 600;
+text-align: left;
+color: #7b6852;
+margin-bottom: 5px;
+}
+.contacto-valepavo .white-background span.txt-blue {
+    color: #5184fe;
+}
+.contacto-valepavo .white-background p.txt-red {
+    color: #ef2700;
+}
+.contacto-valepavo p.txt-required {
+      text-align: right;
+      font-size: 12px;
+      color: #bca266;
+}
+.contacto-valepavo hr {
+    margin: 35px auto;
+    width: 514px;
+    border: dashed 1px #c3c3c3;
+}
+.contacto-valepavo .row:nth-child(2) {
+    margin-top: 14px;
+}
+.contacto-valepavo .row:nth-child(3) {
+    margin-top: 17px;
+}
+.subtitle_cotizacion{
+  font-size: 46px !important;
+  font-weight: bold !important;
+  line-height: 0.87 !important;
+  text-align: center !important;
+  color: #003296 !important;
+}
+.canjear-container_2{
+    background-color: #012e88;
+    /* height: 100vh; */
+    /* padding-top: 62px; */
+    /* padding-bottom: 56px; */
+}
+.canjear-container_2 p{
+  font-size: 18px;
+text-align: center;
+color: #7b6851;
+}
+/*fin contacto-valepavo*/
+div.pavo-arequipeño, div.descongela-pavo, div.pavo-hierbas, div.pavo-chiclayana, div.pavo-criollo, div.pavo-chifa, div.chef-tips{
+  display: none;
+}
+/*inline*/
+div.chef-tips .row-img-pavo{
+  background:url('../images/resources-receta-vales/back-chef.png') no-repeat !important;
+}
+div.descongela-pavo .row-img-pavo{
+  background:url('../images/resources-receta-vales/back-pavo.png') no-repeat !important;
+}
+div.pavo-arequipeño .row-img-pavo{
+  background:url('../images/resources-receta-vales/back-receta.png') no-repeat !important;
+}
+div.pavo-chiclayana .row-img-pavo{
+  background:url('../images/resources-receta-vales/back-receta.png') no-repeat !important;
+}
+div.pavo-chifa .row-img-pavo, div.pavo-criollo .row-img-pavo, div.pavo-hierbas .row-img-pavo{
+  background:url('../images/resources-receta-vales/back-receta.png') no-repeat !important;
+}
+
+div.item-pavo .item-wrap{
+  background:url('../images/vale-2018.png') no-repeat !important;
+}
+div.item-paneton .item-wrap{
+  background:url('../images/paneton.png') no-repeat !important;
+}
+
+div.col-pavo .prod-cont{
+  background:url('../images/vale-2018.png') no-repeat !important;
+}
+div.paneton .second-prod{
+  background:url('../images/paneton.png') no-repeat !important;
+}
+
+div.chef-tips .row-img-pavo, div.descongela-pavo .row-img-pavo, div.pavo-arequipeño .row-img-pavo, div.pavo-chiclayana .row-img-pavo,div.pavo-chifa .row-img-pavo, div.pavo-hierbas .row-img-pavo,
+div.item-paneton .item-wrap, div.item-pavo .item-wrap, div.col-pavo .prod-cont, div.paneton .second-prod
+{
+  background-repeat: no-repeat!important;
+  background-position: center center!important;
+  background-size: cover!important;
+}
+div.item-price{
+  opacity:0;
+}
+div.recetas-rel-shadow .recetas-relacionadas{
+  margin:0px;
+}
+.select-lugar{
+  margin: 0;
+width: 100%;
+padding: 0;
+display: inline-block;
+position: relative;
+font-size: 14px;
+text-align: left;
+color: #bca266;
+/* width: 239px; */
+height: 33px;
+background-color: #ffffff;
+box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.06);
+z-index: 1;
+border-radius: 4px;
+border: none;
+}
+.subtitulo_db_{
+  font-size: 16px;
+
+color: #7b6851;
+}
+/*fin inline*/
+/*fin contacto-valepavo*/

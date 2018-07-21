@@ -1,0 +1,142 @@
+*{
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,body {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  width: 100%;
+  /*height: auto;*/
+  max-width: 100%;
+}
+a:focus, a:hover {
+    text-decoration: none!important;
+}
+/* Inicio Titulos y Subtitlos y parrafos*/
+h1, h2, h3, h4, h5, h6 {
+  /* font-family: 'ACaslonPro'; */
+}
+p, span, a, small, input, li, textarea {
+  /* font-family: 'Open Sans', sans-serif; */
+}
+/* Final  Titulos y Subtitlos y parrafos*/
+
+.active-block {
+  display: block!important;
+}
+.txt-white{
+  color: #fff!important;
+}
+.bg-white{
+  background-color: #fff!important;
+}
+/*para quitar el margin derecho e izquierdo de las columnas row*/
+.row-nomargin {
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+/*fin*/
+/*para quitar el margin derecho e izquierdo de las columnas row*/
+.col-nopadding {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+/*fin*/
+/*estilos para los buttons rojos*/
+.btn-red {
+  /*width: 155px;
+  height: 38px;*/
+  border-radius: 100px;
+  background-color: #ed2b14;
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.14);
+  color: #ffffff;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-size: 12px;
+  /* font-size: 14px; */
+  font-weight: 600;
+}
+.btn-red:hover, .btn-red:focus {
+  border-radius: 100px;
+  background-color: #d52612;
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.14);
+  text-decoration: none;
+  color: #ffffff;
+}
+.btn-red-title{
+  /* font-family: 'Open Sans', sans-serif; */
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+}
+/*fin estilos boton rojo*/
+/* Inicio Titulos Principales con background azul */
+.cont-cabecera, .cont-receta{
+  background-color: #002878;
+  padding: 160px 20px 65px 20px;
+}
+.tit-cabecera{
+  font-size: 67.8px;
+  font-weight: bold;
+  color: #afa16c;
+  /* font-family: ACaslonPro; */
+  margin:0;
+}
+.parraf-cabecera{
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 100;
+}
+/* Fin Titulos Principales con background azul */
+/*mensaje validacion*/
+label.error{
+  color: #ca0538;
+}
+/*fin mensaje validacion*/
+/**/
+ul.main-menu{ margin: 0; padding: 0; }
+.logo-main { text-align: center; width: 12%; float: left; list-style: none; }
+.logo-main{
+  /*position: relative;*/
+  min-height: 162px;
+  width: auto;
+  position: absolute;
+  position: fixed;
+  top: 0;
+      z-index: 9999;
+}
+.logo-main img{ margin: 0 auto; }
+
+
+.logo{padding:0px;}
+.logo-min{ padding:0px; }
+.logo,
+.logo-min{ transition:0.25s;  top: 0%; position: absolute; left: 0; text-align: center; width: 100% }
+.min .logo{ top: -680%; }
+.max .logo-min{ top: -680%; }
+/*
+.rspv-menu{
+  background: #fff;
+  padding: 0px 15px 30px 13px;
+}*/
+.modal-backdrop_azul {
+    opacity: 0.7 !important;
+}
+.backdrop_azul {
+    opacity: 0.7 !important;
+}
+.backdrop_azul {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.77;
+    background-image: linear-gradient(to left, #0051b0, #002878);
+}
+#scroll-top li a:hover {
+  text-decoration: none;
+  background-color: transparent;
+}

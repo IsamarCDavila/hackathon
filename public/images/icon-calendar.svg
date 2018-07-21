@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="41px" viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>z</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_date_range_black_24px" transform="translate(2.000000, 2.000000)">
+            <path d="M14.3333333,16.95 L11.2222222,16.95 L11.2222222,20.05 L14.3333333,20.05 L14.3333333,16.95 Z M20.5555556,16.95 L17.4444444,16.95 L17.4444444,20.05 L20.5555556,20.05 L20.5555556,16.95 Z M26.7777778,16.95 L23.6666667,16.95 L23.6666667,20.05 L26.7777778,20.05 L26.7777778,16.95 Z M29.8888889,6.1 L28.3333333,6.1 L28.3333333,3 L25.2222222,3 L25.2222222,6.1 L12.7777778,6.1 L12.7777778,3 L9.66666667,3 L9.66666667,6.1 L8.11111111,6.1 C6.38444444,6.1 5.01555556,7.495 5.01555556,9.2 L5,30.9 C5,32.605 6.38444444,34 8.11111111,34 L29.8888889,34 C31.6,34 33,32.605 33,30.9 L33,9.2 C33,7.495 31.6,6.1 29.8888889,6.1 Z M29.8888889,30.9 L8.11111111,30.9 L8.11111111,13.85 L29.8888889,13.85 L29.8888889,30.9 Z" id="Shape" fill="#AFA16C" fill-rule="nonzero"></path>
+            <polygon id="Shape" points="0 0 37 0 37 37 0 37"></polygon>
+        </g>
+    </g>
+</svg>

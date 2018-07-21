@@ -1,0 +1,89 @@
+.section-colaboradores{
+  background-color: #ebece6;
+  padding-top: 76px;
+  padding-bottom: 42px;
+}
+.colaboradores-tit{
+  /* font-family: 'Open Sans', sans-serif; */
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.5;
+  text-align: left;
+  color: #7b6851;
+}
+.contenedor-white{
+  max-width: 900px;
+  background-color: #fff;
+  margin: 0 auto;
+  /* padding-top: 66px; */
+  padding: 56px 85px 46px 85px;
+}
+.colaboradores-sub{
+  /* font-family: 'Open Sans', sans-serif; */
+  font-size: 14px;
+  text-align: left;
+  color: #7b6851;
+}
+.contenedor-x{
+  max-width: 900px;
+  color: #bca266;
+  text-align: right;
+  margin: 0 auto;
+  padding-bottom: 35px;
+  font-weight: 800;
+}
+.close span{
+  color: #bca266;
+  font-size: 26px;
+}
+ .close{
+ font-size: 26px;
+ color: #bca266;
+ text-decoration: none;
+ cursor: pointer;
+ opacity: 1 !important;
+ /*filter: alpha(opacity=50);*/
+}
+.close:hover{
+ color: #bca266;
+ text-decoration: none;
+ cursor: pointer;
+ opacity: 1 !important;
+ /*filter: alpha(opacity=50);*/
+}
+.colaboradores-image{
+  background:url('../images/colaboradores.png') no-repeat;
+  width: 464px;
+  height: 256px;
+  margin: 0 auto;
+  margin-top: 47px;
+}
+.close-btn-cont button{
+  /* font-family: 'Open Sans', sans-serif; */
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
+  color: #7b6851;
+  background: transparent;
+  border: 0px;
+  padding-top: 31px;
+}
+.close-btn-cont button:after {
+    display: block;
+    clear: both;
+    content: "";
+    position: relative;
+    left: 0;
+    bottom: 0;
+    max-width: 146px;
+    height: 1px;
+    border-bottom: 1px solid #7b6851;
+    margin-top: 3px;
+}
+.cont-span >div{
+  cursor: pointer;
+}
+.efecto{
+  opacity:0;
+  transition:opacity 0.5s linear;
+}

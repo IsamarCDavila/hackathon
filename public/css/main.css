@@ -1,0 +1,35 @@
+*{
+  /* outline: 1px solid red; */
+}
+body{
+  background-color: #002878;
+  /* #204d74; */
+}
+.page-sidebar, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover{
+  background-color: #002878;
+}
+.right {
+    float: right;
+}
+.page-header.navbar .page-logo {
+  background: #afa16c;
+    /* background: #ebece6; */
+}
+.page-sidebar .page-sidebar-menu>li>a>i[class*=icon-], .page-sidebar .page-sidebar-menu>li>a>i[class^=icon-], .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li>a>i[class*=icon-], .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li>a>i[class^=icon-]{
+  color: #afa16c;
+}
+.nopadding{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.imglogo{
+  margin-top: 15px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #002878;
+    border-color: #002878;
+}
+.has-success .form-control{
+  border-color: #0028C4 !important;
+}

@@ -1,0 +1,218 @@
+html, body{
+  overflow-x: hidden!important;
+}
+/* * {
+    outline: 1px solid green;
+} */
+.menu-slider, .imagen-home, .cont-imghome {
+  height: 70vh;
+}
+.section_nutricional{
+  padding: 30px 0;
+  background-color: #f2f2f2;
+}
+.puntos-vta {
+    margin-bottom: 0px;
+    position: relative;
+    top: 30px;
+}
+.resumen_nutricional{
+    padding: 0 20%;
+}
+.caja{
+  text-align: center;
+  padding: 3% 3%;
+  background-color: #ffff;
+  position: relative;
+  top: 60px;
+}
+.nutricion{
+  background: #ebece6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* .nutricion{
+  background: #ebece6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.container_nutricion{
+    width: 80%;
+    position: relative;
+    top: 100px;
+    padding-bottom: 100px;
+}
+.container_nutricion h1{
+    position: relative;
+    left: 3%;
+    top: 60px;
+}
+.contenedor_cajadorada{
+  padding-top: 10%;
+}
+.contenedor_cajadorada h3{
+  position: relative;
+  left: 5%;
+  color: #bca266;
+}
+.caja_dorada{
+  margin: 5%;
+  padding: 5%;
+  background-color: #bca266;
+  border-radius: 10px;
+}
+.contenedor{
+  padding: 5%;
+}
+.caja-azul{
+  background-color: #003296;
+  padding: 5%;
+  border-radius: 10px;
+}
+.caja-blanca{
+  background-color: #ffff;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  padding: 8%;
+  border-radius: 10px;
+
+}
+.recetas_section .cont-slider{
+  margin-left: 24%;
+  width: 65%;
+}
+.row-recetas{
+  margin-top: 5%;
+}
+.contenedor_img_receta{
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  transform: translateY(0%);
+}
+.contenedor_img_receta .cont-slider{
+  margin-left: 0%;
+  width: 100%;
+  top: 0px;
+}
+.botones-avanzar{
+  margin-top: 22%;
+  left: 20px;
+}
+.contenedor_recetaprincipal{
+  top: 30%!important;
+}
+.ingredientes{
+  color: #7b6851;
+  font-size: 20px;
+  padding-top: 7%;
+  padding-bottom: 0px!important;
+}
+.recetaspreparacion_section .cont-slider{
+  top:0px!important;
+}
+.aviso span{
+  font-size: 10px;
+}
+.caja_informacion{
+  position: absolute;
+  top: 0%;
+  width: 66%;
+}
+.caja_informacion p{
+  text-align: center;
+}
+.principal{
+  border: 1px solid gray;
+}
+.distribuidor-subtitle-form{
+  margin-bottom: 0px !important;
+}
+.disfruta{
+  font-style: initial!important;
+}
+.caja-blanca .bef:after{
+    width: 152%;
+   display: block;
+   clear: both;
+   content: "";
+   position: relative;
+   left: 0;
+   bottom: 10px;
+   height: 1px;
+   border-bottom: 1px solid lightgray;
+   margin-top: 3px;
+}
+.caja-blanca .befe:after{
+  width: 102%;
+  display: block;
+  clear: both;
+  content: "";
+  position: relative;
+  left: 0;
+  bottom: 10px;
+  height: 1px;
+  border-bottom: 1px solid lightgray;
+  margin-top: 3px;
+}
+.hrunion{
+  border-top: 3px solid #bca266;
+  width: 15%;
+  position: absolute;
+  left: 40%;
+  top: 300px;
+}
+.row-buscador{
+  position: absolute;
+  z-index: 1;
+  right: 10px;
+}
+.titulo-receta{
+  position: absolute;
+  left: 15%;
+  top: -6%;
+  font-size: 25px;
+  color: #ffff;
+}
+.item-top{
+  margin-top:5%;
+}
+.titulo_nutricional{
+  color:#483928;
+  font-size: 26px;
+}
+.num_nutricional{
+  color:#7b6851;
+  font-size: 36px;
+}
+.tit_nutricion{
+  color:#7b6851;
+}
+.desgloso_categoria{
+  margin-left: 20px;
+}
+div.caja_dorada .distribuidor-subtitle-form{
+  font-size: 20px;
+}
+.recetas .botones-avanzar{
+  color:#ffffff;
+}
+
+
+/* div.white-background .img-gestion{
+  background:url('../images/gestion.png') no-repeat !important;
+}
+div.img-familia
+{
+  background-repeat: no-repeat!important;
+  background-position: center center!important;
+  background-size: cover!important;
+} */

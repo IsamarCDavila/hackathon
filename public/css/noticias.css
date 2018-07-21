@@ -1,0 +1,124 @@
+
+
+.titulo-banner {
+ /* font-family: 'Open Sans', sans-serif; */
+ font-size: 32px;
+ font-weight: bold;
+ text-align: left;
+ color: #ffffff;
+ margin: 0;
+ padding-bottom: 10px;
+}
+.parraf-banner {
+ /* font-family: 'Open Sans', sans-serif; */
+ font-size: 14px;
+ line-height: 1.21;
+ text-align: left;
+ color: #ffffff;
+}
+.row-banner{
+ bottom: 0px;
+ position: absolute;
+ padding-left: 5px;
+ padding-bottom: 13px;
+ background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #00030b);
+}
+ul.list-redes {
+  margin:0;
+  padding:0;
+  list-style:none;
+  display: -webkit-box;
+  float: right;
+  margin-right: 24px;
+}
+ul.list-redes li{
+  padding-left: 10px;
+}
+.imagen{
+ width: 100%;
+ height: 332px;
+ background: url("../images/banner.png") center no-repeat;
+ background-size: cover;
+ position: relative;
+}
+.imagen:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: .6;
+  border-radius: 4px;
+}
+.img-noticia-cont{
+  height: 200px;
+}
+.col-list-redes{
+  position: absolute;
+  bottom: 13px;
+  right: 0;
+}
+.col-publicidad{
+  padding-left: 28px;
+}
+.content-hero{
+  padding-top: 94px;
+  background-color: #fbfbfb;
+  padding-bottom: 118px;
+}
+.btn-destacado {
+  z-index: 1;
+  border-radius: 4px !important;
+  background-color: #003296;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+  color: #ffffff;
+  padding: 5px 15px;
+  position: absolute;
+}
+.cont-btndestacado{
+  position: absolute;
+  margin-top: 3.3%;
+  margin-left: -2.3%;
+}
+.img-publicidad{
+  /*width: 105%;*/
+}
+/* .row-list-noticias{
+ padding-top: 8%;
+} */
+.row-list-noticias img{
+  width: 100%;
+}
+.tit-noticia{
+  /* font-family: 'Open Sans', sans-serif; */
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  color: #7a6751;
+  margin-top: 0;
+}
+.parraf-noticia{
+ /* font-family: 'Open Sans', sans-serif; */
+ font-size: 14px;
+ line-height: 1.43;
+ text-align: left;
+ color: #7a6751;
+ padding-bottom: 28px;
+}
+.texto-noticia{
+  padding-top: 27px;
+  padding-right: 10px;
+}
+.espacio-noticias{
+  padding-bottom: 50px;
+}
+.noticias-separacion{
+ padding-top: 60px;
+}
+.noticias_contenedor{
+  padding-top: 5%;
+}
