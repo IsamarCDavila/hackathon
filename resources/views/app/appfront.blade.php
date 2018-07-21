@@ -30,6 +30,8 @@
 
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <!-- BEGIN GLOBAL MANDATORY STYLES -->
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        
 
         <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|ACaslonPro:100,300,400,500,700,800,900" rel="stylesheet">
@@ -100,5 +102,11 @@
     <script src="<?php echo URL::asset('js/validacion.js'); ?>" type="text/javascript"></script>
     <script src="<?php echo URL::asset('js/jquery-sticktotop.min.js'); ?>" type="text/javascript"></script>
     <script src="<?php echo URL::asset('js/recetaDetalle.js'); ?>" type="text/javascript"></script>
+
+
+
+
+
+
   </body>
 </html>

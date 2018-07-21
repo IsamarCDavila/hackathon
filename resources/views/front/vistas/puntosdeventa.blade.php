@@ -79,13 +79,17 @@ $title = 'Puntos de venta - San Fernando';
 @include('front.includes.footer')
 <script type="text/javascript">
   var puntos={!! $jsonPines !!};
-  // console.log("vxcvxc",puntos);
+  console.log("vxcvxc",puntos);
 </script>
 <script type="text/javascript">
 var banner={!!$banners!!};
 var url = "{!! url('/') !!}";
 var tipo_s = 'pv_';
 </script>
+
+<script src="http://js.api.here.com/v3/3.0/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://js.api.here.com/v3/3.0/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+
 <script src="js/banners.js"></script>
 
 <script src="js/jsonPuntosVenta.js"></script>
