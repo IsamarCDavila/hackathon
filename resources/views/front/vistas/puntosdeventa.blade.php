@@ -24,8 +24,8 @@ $title = 'Puntos de venta - San Fernando';
 <div id="container-sanfer" class="container-sanfer">
   <div class="row cont-cabecera row-nomargin">
     <div class="main-text-cont">
-      <h1 class="tit-cabecera">Puntos de Venta</h1>
-      <p class="parraf-cabecera">Conoce todos los puntos de venta a nivel nacional</p>
+      <h1 class="tit-cabecera">Puntos de Destinos</h1>
+      <p class="parraf-cabecera">Conoce todos los puntos turisticos de la ciudad de Arequipa</p>
     </div>
   </div>
   <section id="s-canjear">

@@ -12,8 +12,8 @@ $title = 'Producto - San Fernando';
   @include('front.includes.header')
   <div class="row cont-cabecera row-nomargin">
     <div class="main-text-cont">
-      <h1 class="tit-cabecera">Productos</h1>
-      <p class="parraf-cabecera">Conoce todos nuestros productos de gran sabor y calidad.</p>
+      <h1 class="tit-cabecera">Agencias</h1>
+      <p class="parraf-cabecera">Conoce todos nuestras agencias certificadas.</p>
     </div>
   </div>
 <!--inicio modal-->

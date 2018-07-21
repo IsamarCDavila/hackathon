@@ -15,7 +15,7 @@ $title = 'Contacto - San Fernando';
   <div class="row cont-cabecera row-nomargin">
   <div class="main-text-cont">
     <h1 class="tit-cabecera">Contacto</h1>
-    <p class="parraf-cabecera">Para temas de atención al cliente pueden comunicarse directamente al 213-5300 de lunes a viernes de 09:00 a.m. a 06:00 p.m. o pueden llenar el siguiente formulario y atenderemos sus dudas lo más pronto posible.</p>
+    <!-- <p class="parraf-cabecera">Para temas de atención al cliente pueden comunicarse directamente al 213-5300 de lunes a viernes de 09:00 a.m. a 06:00 p.m. o pueden llenar el siguiente formulario y atenderemos sus dudas lo más pronto posible.</p> -->
   </div>
 </div>
 
