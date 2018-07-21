@@ -34,13 +34,13 @@ console.log(true);
     zoom: 15,
     center: { lng: -71.535, lat: -16.39889 }
   });
-
+// $('.selectpicker').selectpicker();
   for(var i=0;i<puntos.length;i++){
     var diferente=true;
+
     if($("#filtro_ciudad > option").length==0){
       $("#filtro_ciudad")
-        .append('<option id="'+tipo_s+'ciudad_'+puntos[i].lugar.toLowerCase().replace(' ', '_')+'">'+puntos[i].lugar+'</option>')
-        .selectpicker('refresh');
+        .append('<option id="'+tipo_s+'ciudad_'+puntos[i].lugar.toLowerCase().replace(' ', '_')+'">'+puntos[i].lugar+'</option>');
     }else{
       $("#filtro_ciudad > option").each(function() {
           if(this.text == puntos[i].lugar){
@@ -48,27 +48,109 @@ console.log(true);
           }
       });
 
-      // if(diferente){
-      //   $("#filtro_ciudad")
-      //     .append('<option id="'+tipo_s+'ciudad_'+puntos[i].lugar.toLowerCase().replace(' ', '_')+'">'+puntos[i].lugar+'</option>').selectpicker('refresh');
-      // }
+      if(diferente){
+        $("#filtro_ciudad")
+          .append('<option id="'+tipo_s+'ciudad_'+puntos[i].lugar.toLowerCase().replace(' ', '_')+'">'+puntos[i].lugar+'</option>');
+      }
     }
 
   }
 
-    $("#filtro_ciudad").on('change', function () {
-      // alert("holaaa");
-      mostrarLugar(map,santaCatalina)
-    });
+    // $("#filtro_ciudad").on('change', function () {
+    //   // alert("holaaa");
+    //
+    // });
 
-    var mapObjects = [];
-  function mostrarLugar(map, lugar){
-    $('#title').html(lugar.titulo);
-    $('#descripcion').html(lugar.descripcion);
-    var marker = new H.map.Marker(lugar.location);
+      $("#filtro_ciudad").on('change', function () {
+          // $('option', "#filtro_distrito").remove();
+          $('option', "#filtro_categoria").remove();
+          $("#filtro_categoria")
+                    .append('<option>Seleccione lugar</option>');
+          var d=$("#filtro_ciudad").find(":selected").text();
+          $("#filtro_ciudad").find(":selected").trigger('click');
+
+          var titulo = $( "#filtro_ciudad option:selected" ).text();
+          var res = alasql("SELECT * FROM ? WHERE lugar = ?",[puntos, titulo]);
+          // console.log("res",res);
+          // mostrarTodos(map,res,false);
+
+
+          for(var i=0;i<puntos.length;i++){
+            var diferente=true;
+            if(puntos[i].lugar == d){
+              console.log(puntos[i].distrito);
+              $("#filtro_distrito").append('<option>'+puntos[i].distrito+'</option>');
+              // if($("#filtro_distrito > option").length==0){
+              //   $("#filtro_distrito").append('<option>Seleccione distrito </option><option  value='+puntos[i].place_id+ ' id="'+tipo_s+'distrito_'+puntos[i].distrito.toLowerCase().replace(' ', '_')+'">'+puntos[i].distrito+'</option>');
+              // }else{
+              //   $("#filtro_distrito > option").each(function() {
+              //
+              //       if(this.text == puntos[i].distrito){
+              //         diferente=false;
+              //       }
+              //   });
+              //   if(diferente){
+              //     $("#filtro_distrito")
+              //               .append('<option value='+puntos[i].place_id+ ' id="'+tipo_s+'distrito_'+puntos[i].distrito.toLowerCase().replace(' ', '_')+'">'+puntos[i].distrito+'</option>');
+              //   }
+              // }
+            }
+          }
+
+        });
+
+      $("#filtro_distrito").on('change', function () {
+          $( "#filtro_distrito option:selected" ).text();
+          var titulo = $( "#filtro_distrito option:selected" ).text();
+          console.log("lugares",titulo, puntos);
+          var res = alasql("SELECT * FROM ? WHERE distrito = ?",[puntos, titulo]);
+          console.log("res",res);
+          mostrarLugar(map,res,true);
+          // mostrarLugar(map,santaCatalina);
+      });
+
+
+
+
+
+
+
+  var mapObjects = [];
+    var array = [];
+    function mostrarTodos(map, lugar,type){
+      for(var i=0;i<lugar.length;i++){
+        var marker_dos = new H.map.Marker(lugar[i].location.coordinates);
+        array = [marker_dos];
+        map.addObjects(array);
+      }
+    }
+  function mostrarLugar(map, lugar,type){
+    marker = new H.map.Marker(lugar[0].location.coordinates);
+    // console.log("xcx",lugar[0].location.coordinates);
+    // console.log("sss",mapObjects);
+    // console.log("mm",marker);
+    $(".distribuidor-mapa").find(".title").html(lugar[0].name);
+    $(".distribuidor-mapa").find(".address").html(lugar[0].location.full_address);
     map.removeObjects(mapObjects);
     mapObjects = [marker];
     map.addObjects(mapObjects);
+    // if(type== false){
+    //   for(var i=0;i<lugar.length;i++){
+    //     console.log("LUGAR-->",lugar, type);
+    //     console.log("entroo al for");
+    //     var marker = new H.map.Marker(lugar[i].location.coordinates);
+    //       mapObjects = [marker];
+    //       map.addObjects(mapObjects);
+    //
+    //   }
+    // }
+    //
+    // else{
+    //   console.log("filtro profundo");
+    //
+    // }
+
+
   }
 
     //   $("#filtro_ciudad").on('change', function () {
