@@ -37,7 +37,7 @@
   width: 155px;
   height: 38px;
   border-radius: 100px;
-  background-color: #ed2b14;
+  background-color: #ccaf6e;
   box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.14);
   color: #ffffff;
 }
@@ -45,17 +45,17 @@
   width: 230px;
   height: 38px;
   border-radius: 100px;
-  background-color: #ed2b14;
+  background-color: #bca266;
   box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.14);
-  color: #ffffff;
+  color: #8a1c1c;
 }
 .btn-red-mito:hover{
   width: 230px;
   height: 38px;
   border-radius: 100px;
-  background-color: #ed2b14;
+  background-color: #bca266;
   box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.14);
-  color: #ffffff;
+  color: #bca266;
 }
 .btn-red-title{
   /* font-family: 'Open Sans', sans-serif; */
