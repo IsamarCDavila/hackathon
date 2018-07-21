@@ -20,13 +20,13 @@
                       <div class="col-lg-4 col-sm-4 col-xs-12 col-nopadding info-location tab-content clearfix">
                         <div class="info-location-content tab-pane active fade in" id="lima">
                           <p class="txt-bold">Nombree</p>
-                          <p class="title">Multimarket Surquillo</p>
+                          <p class="title">-</p>
                           <p class="txt-bold">Dirección</p>
-                          <p class="address">Av. República de Panamá 4299 </p>
-                          <p class="txt-bold">Horario de atención </p>
+                          <p class="address">- </p>
+                          <!-- <p class="txt-bold">Horario de atención </p>
                           <p class="atencion">Lunes a viernes de 8:00 a.m. a 9:00 p.m. Sábados y Domingos de 8:00 a.m. a 4:00 p.m.</p>
                           <p class="txt-bold">Teléfono</p>
-                          <p class="phone">4194370 </p>
+                          <p class="phone">4194370 </p> -->
                           <p class="txt-bold res">Restricciones</p>
                           <p class="restricciones">Los días 24 y 31 de diciembre se atenderá de 8:00 a.m. a 6:00 p.m. No se atenderá el día 25 de diciembre del 2017 ni el 1 de enero del 2018. Canje por pavo o cerdo (Cerdo sólo si tu vale lo indica).</p>
                         </div>
@@ -49,19 +49,18 @@
                             <div class="form-group" id="ciudad">
                               <select id="filtro_ciudad" class="selectpicker">
                                    <option>Seleccione ciudad</option>
-                                   <option>dsfhsdf</option>
                                </select>
                             </div>
                             <div class="form-group" id="distrito">
-                              <select id="filtro_distrito" class="selectpicker">
+                              <select id="filtro_distrito">
                                 <option>Seleccione distrito</option>
                               </select>
                             </div>
-                            <div class="form-group" id="cate">
+                            <!-- <div class="form-group" id="cate">
                               <select id="filtro_categoria" class="selectpicker">
                                 <option>Seleccione lugar</option>
                               </select>
-                            </div>
+                            </div> -->
                           </div>
                         </div>
                         <div id="map3" class="mapa-canjear"></div>
