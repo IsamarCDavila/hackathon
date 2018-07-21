@@ -37,7 +37,7 @@ $title = 'Noticias - San Fernando';
             </div>
             @endforeach
           </div>
-        </div>
+        </div> 
       </div>
     </div>
     <a href="https://www.facebook.com/san.fernando.labuenafamilia" target="_blank" id="facebook">
@@ -45,7 +45,7 @@ $title = 'Noticias - San Fernando';
         <!-- <img src="images/advertising.png" class="img-responsive img-publicidad"> -->
           <p id="text">HAZTE FAN EN FACEBOOK</p>
           <div class="likefb">
-            <img src="{!!url('img/mercaderes')!!}" alt="" class="img-responsive img-publicidad">
+            <img src="{!!url('images/mercaderes')!!}" alt="" class="img-responsive img-publicidad">
           </div>
       </div>
     </a>

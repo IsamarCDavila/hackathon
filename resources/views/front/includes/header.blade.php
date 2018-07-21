@@ -33,9 +33,9 @@
           <div class="cont-link menu-topo main-menu" id="menu-topo">
             <ul id="menu-main" class="col-lg-offset-3 col-lg-9 col-sm-offset-1 col-sm-11 col-xs-12">
               <li id="li1"><a href="{!!url('/nosotros')!!}">Nosotros</a></li>
-              <li id="li2"><a href="{!!url('/productos')!!}">Coding House</a></li>
-              <li id="li3"><a href="{!!url('/puntosdeventa')!!}" class="dentro">Puntos de enseñanza</a></li>
-              <li id="li4"><a href="{!!url('/recetas')!!}">Respaldo</a></li>
+              <li id="li2"><a href="{!!url('/agencias')!!}">Agencias</a></li>
+              <li id="li3"><a href="{!!url('/puntosdedestino')!!}" class="dentro">Puntos de ubicación</a></li>
+              <!-- <li id="li4"><a href="{!!url('/recetas')!!}">Respaldo</a></li> -->
               <li id="li5"><a href="{!!url('/noticias')!!}" class="dentro">Noticias</a></li>
               <li id="li6"><a href="{!!url('/contacto')!!}" class="dentro">Contacto</a></li>
             </ul>

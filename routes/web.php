@@ -21,9 +21,9 @@ Route::post('/envia_libro', 'testerController@envia_libro');
               /*-------------FRONT----------*/
 //Route::get('/home', 'FrontController@home');
 Route::get('/nosotros', 'FrontController@nosotros');
-Route::get('/productos', 'FrontController@productos');
+Route::get('/agencias', 'FrontController@productos');
 Route::get('/recetas', 'FrontController@recetas');
-Route::get('/puntosdeventa', 'FrontController@puntosdeventa');
+Route::get('/puntosdedestino', 'FrontController@puntosdeventa');
 Route::get('/contacto', 'FrontController@contacto');
 Route::get('/noticias', 'FrontController@noticias');
 Route::get('/puntosdecanje', 'FrontController@puntoscanje');

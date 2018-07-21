@@ -24,8 +24,8 @@ $title = 'Puntos de venta - San Fernando';
 <div id="container-sanfer" class="container-sanfer">
   <div class="row cont-cabecera row-nomargin">
     <div class="main-text-cont">
-      <h1 class="tit-cabecera">Puntos de Venta</h1>
-      <p class="parraf-cabecera">Conoce todos los puntos de venta a nivel nacional</p>
+      <h1 class="tit-cabecera">Puntos de Destinos</h1>
+      <p class="parraf-cabecera">Conoce todos los puntos turisticos de la ciudad de Arequipa</p>
     </div>
   </div>
   <section id="s-canjear">
@@ -79,13 +79,17 @@ $title = 'Puntos de venta - San Fernando';
 @include('front.includes.footer')
 <script type="text/javascript">
   var puntos={!! $jsonPines !!};
-  // console.log("vxcvxc",puntos);
+  console.log("vxcvxc",puntos);
 </script>
 <script type="text/javascript">
 var banner={!!$banners!!};
 var url = "{!! url('/') !!}";
 var tipo_s = 'pv_';
 </script>
+
+<script src="http://js.api.here.com/v3/3.0/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://js.api.here.com/v3/3.0/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+
 <script src="js/banners.js"></script>
 
 <script src="js/jsonPuntosVenta.js"></script>
