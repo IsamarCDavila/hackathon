@@ -108,13 +108,6 @@ console.log(true);
           mostrarLugar(map,res,true);
           // mostrarLugar(map,santaCatalina);
       });
-
-
-
-
-
-
-
   var mapObjects = [];
     var array = [];
     function mostrarTodos(map, lugar,type){
