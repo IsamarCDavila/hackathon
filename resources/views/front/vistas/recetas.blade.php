@@ -15,8 +15,8 @@ $title = 'Recetas - San Fernando';
         <div class="row-global">
 
           <div class="col-lg-offset-3 col-lg-7 col-sm-10 col-xs-12 col-sm-offset-1 col-nopadding">
-            <h1 class="tit-cabecera">Nuestras Recetas</h1>
-            <p class="parraf-cabecera">¿Buscas un poco de inspiración?  Te damos algunas recetas  para que cocines una variedad de platos para engreír a toda tu familia.</p>
+            <h1 class="tit-cabecera">Ministerio de Comercio Exterior y turismo </h1>
+            <p class="parraf-cabecera">¿Buscas un poco de informacion?  Te damos algo mas de informacion para saber mas acerca de nuestras oficinas y lugares autorizados de agencias de turismo.</p>
           </div>
         </div>
       </div>

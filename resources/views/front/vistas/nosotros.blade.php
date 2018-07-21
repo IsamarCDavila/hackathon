@@ -28,8 +28,8 @@ $title = 'Nosotros - San Fernando';
       <div class="col-md-12 col-sm-12 col-xs-12 col-nopadding">
         <div class="col-md-4 col-sm-4 col-xs-12">
           <div class="titulo-intro">
-            <p class="tit-valor titDorado titulo_db">El valor <br>de una <br> gran familia</p>
-            <p class='hidden-xs parrafo-text descripcion_db'>En 1948, cuando creamos San Fernando, una de las metas que nos pusimos fue crear una gran familia, algo que hemos estado logrando a través de los años. </p>
+            <p class="tit-valor titDorado titulo_db">El valor <br>de mi <br> mi tierra</p>
+            <p class='hidden-xs parrafo-text descripcion_db'>La ciudad fue fundada el 15 de agosto de 1540, bajo la denominación de «Villa Hermosa de Nuestra Señora de la Asunta» en nombre del marqués don Francisco Pizarro. </p>
           </div>
         </div>
         <div class="col-md-8 col-sm-8 col-xs-12 img-family-col">
