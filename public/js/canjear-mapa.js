@@ -52,8 +52,19 @@
   }
 
     $("#filtro_ciudad").on('change', function () {
-      alert("holaaa");
+      // alert("holaaa");
+      mostrarLugar(map,santaCatalina)
     });
+
+    var mapObjects = [];
+  function mostrarLugar(map, lugar){
+    $('#title').html(lugar.titulo);
+    $('#descripcion').html(lugar.descripcion);
+    var marker = new H.map.Marker(lugar.location);
+    map.removeObjects(mapObjects);
+    mapObjects = [marker];
+    map.addObjects(mapObjects);
+  }
 
     //   $("#filtro_ciudad").on('change', function () {
     //       $('option', "#filtro_distrito").remove();
