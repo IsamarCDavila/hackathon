@@ -37,19 +37,15 @@ $title = 'Noticias - San Fernando';
             </div>
             @endforeach
           </div>
-        </div>
+        </div> 
       </div>
     </div>
     <a href="https://www.facebook.com/san.fernando.labuenafamilia" target="_blank" id="facebook">
       <div class="col-md-3 hidden-xs hidden-sm bannerfb">
         <!-- <img src="images/advertising.png" class="img-responsive img-publicidad"> -->
-        <div class="logosanfer">
-          <img src="{!!url('images/logo.png')!!}" alt="logo San Fernando" class="img-responsive img-publicidad-logo">
-        </div>
-
           <p id="text">HAZTE FAN EN FACEBOOK</p>
           <div class="likefb">
-            <img src="{!!url('images/likefb.png')!!}" alt="facebook San Fernando" class="img-responsive img-publicidad">
+            <img src="{!!url('images/mercaderes')!!}" alt="" class="img-responsive img-publicidad">
           </div>
       </div>
     </a>
@@ -61,7 +57,7 @@ $title = 'Noticias - San Fernando';
   <style media="screen">
     .bannerfb{
       height: 78vh;
-      background-color: #003197;
+      background-color: #EF5939  ;
      text-align: center;
     }
     .logosanfer{
