@@ -15,6 +15,7 @@ $title = 'Puntos de venta - San Fernando';
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
+
   gtag('config', 'UA-34020497-2');
 </script>
 @endsection
@@ -41,7 +42,7 @@ $title = 'Puntos de venta - San Fernando';
         <div class="distribuidor-centrar">
           <p class="distribuidor-title titulo_db">¿Quieres ser Distribuidor?<p>
           <p class="distribuidor-line"> </p>
-          <p class="distribuidor-subtitle descripcion_db">Buscamos socios comerciales interesados en la distribución de nuestros productos. ¡Tu puedes ser uno de ellos!</p>
+          <p class="distribuidor-subtitle descripcion_db">Buscamos agencias certificadas para dar opciones a alos turistas!</p>
         </div>
       </div>
       <div class="">
