@@ -87,9 +87,9 @@ var banner={!!$banners!!};
 var url = "{!! url('/') !!}";
 var tipo_s = 'pv_';
 </script>
-
 <script src="http://js.api.here.com/v3/3.0/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
 <script src="http://js.api.here.com/v3/3.0/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/npm/alasql@0.4"></script>
 
 <script src="js/banners.js"></script>
 

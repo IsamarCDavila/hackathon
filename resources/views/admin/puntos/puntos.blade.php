@@ -15,7 +15,7 @@
 <!-- /.heading-->
 
 @section('content')
-<h1 class="page-title"> Puntos de Venta y Canje
+<h1 class="page-title"> Puntos turisticos y Canje
     <a class="btn btn-primary right" href="{!!url('/newpuntosubicacion')!!}"><i class="fa fa-plus"></i></a>
 </h1>
 <div class="portlet light ">
@@ -25,8 +25,8 @@
         <thead>
           <tr>
             <th> # </th>
-            <th> TIPO </th>
-            <th> NOMBRE </th>
+            <!-- <th> TIPO </th>
+            <th> NOMBRE </th> -->
             <th> CIUDAD </th>
             <th> ACCIONES </th>
           </tr>
@@ -35,8 +35,8 @@
           @foreach ($marker as $key)
           <tr id="">
             <td>{!!$key->id!!}</td>
-            <td>{!!$key->tipo_marker!!}</td>
-            <td>{!!$key->nombre!!}</td>
+            <!-- <td>{!!$key->tipo_marker!!}</td>
+            <td>{!!$key->nombre!!}</td> -->
             <td>{!!$key->ciudad!!}</td>
             <td>
               <a  class="btn btn-xs blue btn-outline" href="{!!url('/editar-puntosubicacion/'.$key->id)!!}"><i class="fa fa-pencil ico-editar"></i></a>
