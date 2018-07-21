@@ -88,10 +88,10 @@
 
 /*SECCION NOTICIA*/
 section.slider .noticias {
-    background: #012e88;
+    background: #8a1c1c;
 }
 .txtnoticia {
-    /* background: #012e88; */
+    /* background: #8a1c1c; */
     height: 180px;
     border-radius: 0 0 4px 4px;
     /* padding: 31px 21.3px 37px 21.3px; */
@@ -445,7 +445,7 @@ section.contenido_responsabilidad{
   display: none;
 }
 div.modal_certificado .modal-body{
-  background: #012e88;
+  background: #8a1c1c;
 }
 div.modal_certificado .contenido{
   color:white;

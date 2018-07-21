@@ -25,7 +25,7 @@
         <div class="col-lg-10 col-sm-12 col-xs-12 col-nopadding">
           <div class="cont-texto">
             <div class="col-lg-8 col-sm-8 col-nopadding">
-              <h1 class="tit-partnost titulo_db">Inscribe a tu cole</h1>
+              <h1 class="tit-partnost titulo_db">Agrega tu agencia</h1>
               <div class="contenido_trabaja" style="padding-right: 10%;">
                 <p class="trabajaestilo hidden-xs descripcion_db">INCRIBETE DSHFJDSHFSDF DJSFHSDJFHDJFHSD SDJFHDSJFSDHF</p>
               </div>

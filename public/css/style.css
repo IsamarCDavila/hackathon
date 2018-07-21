@@ -10,6 +10,12 @@ html,body {
   /*height: auto;*/
   max-width: 100%;
 }
+.container-menu .logo_h{
+  font-family: 'Merienda', cursive !important;
+  font-weight: 600 !important;
+  color: #b12f2f !important;
+
+}
 a:focus, a:hover {
     text-decoration: none!important;
 }

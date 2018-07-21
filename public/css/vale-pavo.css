@@ -580,7 +580,7 @@ width: 100px;
   font-weight: bold;
   line-height: 0.87;
   text-align: center;
-  color: #003296;
+  color: #b12f2f;
 }
 .cd-horizontal-timeline .events-content p {
   line-height: 1.6;
@@ -1045,7 +1045,7 @@ input::-webkit-input-placeholder, input::-moz-placeholder, input:-ms-input-place
 /* Fin de Nuestros Beneficios */
 /* Inicio de Seccion Canjear */
 .canjear-container  {
-  background-color: #012e88;
+  background-color: #8a1c1c;
   height: 100vh;
   /* padding-top: 62px; */
   /* padding-bottom: 56px; */
@@ -1549,7 +1549,7 @@ input::-webkit-input-placeholder, input::-moz-placeholder, input:-ms-input-place
       -ms-flex: 1 0 284px;
           flex: 1 0 284px;
   border-radius: 4px;
-  background-color: #012e88;
+  background-color: #8a1c1c;
   margin: 18.5px 4px;
   position: relative;
   cursor:pointer;
@@ -1740,10 +1740,10 @@ margin-bottom: 5px;
   font-weight: bold !important;
   line-height: 0.87 !important;
   text-align: center !important;
-  color: #003296 !important;
+  color: #b12f2f !important;
 }
 .canjear-container_2{
-    background-color: #012e88;
+    background-color: #8a1c1c;
     /* height: 100vh; */
     /* padding-top: 62px; */
     /* padding-bottom: 56px; */

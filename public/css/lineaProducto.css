@@ -44,7 +44,7 @@ ul.tabs-mitos li {
   font-weight: 600;
   color: #ffffff !important;
   border-radius: 4px;
-  background-color: #012e88;
+  background-color: #8a1c1c;
   cursor: default;
   padding: 30px 0;
   cursor: pointer;
@@ -53,7 +53,7 @@ ul.tabs-mitos li {
   font-weight: 500;
   color: #ffffff !important;
   border-radius: 4px;
-  background-color: #012e88;
+  background-color: #8a1c1c;
   cursor: default;
   padding: 30px 0;
 }
@@ -66,9 +66,9 @@ ul.tabs-mitos li {
   right: 37%!important;
   display: inline-block;
   border-right: 19px solid transparent;
-  border-top: 14px solid #012e88;
+  border-top: 14px solid #8a1c1c;
   border-left: 19px solid transparent;
-  border-bottom-color: #012e88;
+  border-bottom-color: #8a1c1c;
   content: '';
 }
 .detprod{

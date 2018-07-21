@@ -6,8 +6,14 @@
         <div class="container-menu">
           <div class="row row-nomargin row-menu">
             <div class="logo-main max">
-              <a href="{!!url('/')!!}" class='logo'><img src="{!!url('images/hero/imagotipo.png')!!}" style="width: 200px;"></a>
-  						<a href="{!!url('/')!!}" class='logo-min'><img src="{!!url('images/hero/logotipo.png')!!}"  style="width: 200px;"></a>
+              <a href="{!!url('/')!!}" class='logo'>
+                <h1 class="logo_h">VIVE AQP</h1>
+                <!-- <img src="{!!url('images/hero/catedral_vectorial.svg')!!}" style="width: 200px;"> -->
+              </a>
+  						<a href="{!!url('/')!!}" class='logo-min'>
+                <h1 class="logo_h">VIVE AQP</h1>
+                <!-- <img src="{!!url('images/hero/logotipo.png')!!}"  style="width: 200px;"> -->
+              </a>
             </div>
 
               <div class="link-sup">

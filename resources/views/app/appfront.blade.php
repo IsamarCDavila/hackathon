@@ -3,23 +3,24 @@
     <head>
         <meta charset="utf-8" />
         @isset($title)
-         <title>Code en mi cole</title>
+         <title>VIVE AQP</title>
         @endisset
 
         @empty($records)
-        <title>Code en mi cole - Perú</title>
+        <title>Arequipa - Perú</title>
         @endempty
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="robots" content="index, follow">
-        <meta name="keywords" content="Colegio, programacion, ampra">
-        <meta name="description" content="Code en mi cole">
-        <meta property="og:title" content="cole en cole">
+        <meta name="keywords" content="turismo arequipa">
+        <meta name="description" content="turismo arequipa">
+        <meta property="og:title" content="Vive aqp">
         <meta property="og:type" content="website"/>
-        <meta property="og:site_name" content="San Fernando - Perú">
-        <meta property="og:description" content="San Fernando - Perú">
+        <meta property="og:site_name" content="VIVE AQP - Perú">
+        <meta property="og:description" content="VIIVE AQP - Perú">
+        <link rel="icon" href="images/hero/heart.svg" type="image/gif" sizes="16x16">
         <!--<meta property="og:image" content="https://www.san-fernando.com.pe/images/logo.png">-->
 
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
@@ -30,7 +31,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <!-- BEGIN GLOBAL MANDATORY STYLES -->
 
-
+        <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|ACaslonPro:100,300,400,500,700,800,900" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Helvetica+Neue:100,300,400,500,700,800,900" rel="stylesheet">

@@ -129,10 +129,10 @@ body {
   left: 0;
   bottom: 0;
   max-width: 45px;
-  border-bottom: 3px solid #003296;
+  border-bottom: 3px solid #b12f2f;
 }
 .menu-topo li a:hover , #menu-topo li a:focus{
-  color: #003296;
+  color: #b12f2f;
 }
 .btn-collapse {
   width: 35px;
@@ -332,7 +332,7 @@ div.row-menu {
 }
 .cont-footer-blue{
   height: 35.8px;
-  background: #003296;
+  background: #b12f2f;
 }
 .derechos{
   font-size: 12px;
@@ -347,14 +347,14 @@ div.row-menu {
   margin-right: 10px;
 }
 .cont-tigres{
-  background: #003296;
+  background: #b12f2f;
   padding: 20px 0;
 }
 .ico-inicio{
   width: 50px;
   height: 50px;
   border-radius: 30px;
-  background-color: #003296;
+  background-color: #b12f2f;
   box-shadow: 0 11px 22px 0 rgba(0, 0, 0, 0.23);
   display: flex;
   align-items: center;
@@ -459,7 +459,7 @@ div.row-menu {
   width: 36px;
   height: 36px;
   border-radius: 2px;
-  background-color: #003296;
+  background-color: #b12f2f;
   box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.12);
   border: none;
   color: #ffffff;
@@ -730,7 +730,7 @@ svg:hover path {
   font-weight: 900;
   line-height: 0.87;
   text-align: center;
-  color: #003296;
+  color: #b12f2f;
   padding-bottom: 29px;
 }
 .parraf-negro18{
@@ -843,7 +843,7 @@ svg:hover path {
     margin-right: auto!important;
 }
 .det-noticia {
-    background-color: #012e88;
+    background-color: #b12f2f;
     padding: 31px 22px 37px 22px;
     border-radius: 0px 0px 4px 4px;
     -moz-border-radius: 0px 0px 4px 4px;
@@ -909,7 +909,7 @@ svg:hover path {
 }
 .cont-mitosmenu{
   border-radius: 4px;
-  background-color: #012e88;
+  background-color: #b12f2f;
   padding: 102px 0;
   position: relative;
   margin-left: -50px;
@@ -927,7 +927,7 @@ svg:hover path {
   font-weight: 900;
   font-style: italic;
   text-align: left;
-  color: #01369f;
+  color: #8a1c1c;
 }
 .tit-blanco20{
   /* font-family: 'Open Sans', sans-serif; */
@@ -1145,7 +1145,7 @@ padding: 68px 0 124px 0;
       font-size: 39px;
       font-weight: bold;
       line-height: 1.05;
-      color: #012e88;
+      color: #8a1c1c;
       margin-bottom: 15px;
 }
 /* .leftcero.distribuidor .cont-texto div:first-child {
@@ -1188,7 +1188,7 @@ padding: 68px 0 124px 0;
   font-size: 40px;
   font-weight: bolder;
   line-height: 1;
-  color: #003296;
+  color: #b12f2f;
   height: 40px;
   margin-top: 61px;
 }
@@ -1202,7 +1202,7 @@ padding: 68px 0 124px 0;
     bottom: 0;
     max-width: 146px;
     height: 1px;
-    border-bottom: 3px solid #003296;
+    border-bottom: 3px solid #b12f2f;
     margin-top: 3px;
 }
 .cont-linprod ul.nav-tabs {
@@ -1891,7 +1891,7 @@ li.info-cont{
       margin: 36px auto 25px;
   }
   .noticias-home .slider-noticias .txtnoticia{
-      background-color: #012e88;
+      background-color: #8a1c1c;
       padding:31px 22px 37px 22px;
       height: 162px;
   }
@@ -2270,7 +2270,7 @@ div.caja:hover {
   top:0px!important;
 }
 .slider_principal .botones-avanzar{
-  margin-top: 25%!important;
+  margin-top: 20%!important;
   left: 40%!important;
   right: 0px !important;
 }

@@ -159,10 +159,10 @@ $title = 'San Fernando - Peru';
           <div class="lineaProductoCont row row-nomargin">
             <div class="lineaProducto-title">
               <div class="row-global col-xs-12 col-md-8 col-nopadding">
-                <h1>Desea apoyar a Code en mi cole</h1>
+                <h1>Ayúdanos a localizarte </h1>
               </div>
               <div class="row-global col-xs-12 col-md-4 col-nopadding row_btn">
-                <span class="span_btn">Apoyar</span>
+                <span class="span_btn">Buscar</span>
               </div>
             </div>
           </div>
@@ -196,7 +196,7 @@ $title = 'San Fernando - Peru';
       <div class="cont-noticiasmenu col-md-6 col-sm-6 hidden-xs bloque_5">
         <div class="col-lg-offset-2 col-lg-6 col-sm-offset-1 col-sm-11">
           <h1 class="tit-blanco46 titulo_db">Noticias</h1>
-          <p class="parraf-blanco14 descripcion_db">La últimas noticias relacionadas a Code en mi cole.</p>
+          <p class="parraf-blanco14 descripcion_db">La últimas noticias relacionadas a Arequipa.</p>
         </div>
         <div class="items-noticias">
           <?php

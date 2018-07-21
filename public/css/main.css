@@ -5,6 +5,7 @@ body{
   background-color: #002878;
   /* #204d74; */
 }
+
 .page-sidebar, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover{
   background-color: #002878;
 }

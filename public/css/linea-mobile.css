@@ -137,7 +137,7 @@ background-color: #ed2b14 !important;
 top: 110px;
 }
 .timeline-badge.info {
-background-color: #003296 !important;
+background-color: #b12f2f !important;
 }
 
 .timeline-title {
@@ -159,7 +159,7 @@ margin-bottom: 0;
 font-size: 26px;
 font-weight: 800;
 letter-spacing: -0.5px;
-color: #003296;
+color: #b12f2f;
 margin-bottom: -3px !important;
 }
 .timeline-title2{
@@ -228,7 +228,7 @@ margin-bottom: 28px;
 }
 .cont-lineatiempo2 {
   /*height: 1400px;*/
-  background-color: #003296;
+  background-color: #b12f2f;
   margin-top: -16px;
       padding-top: 100px;
 }

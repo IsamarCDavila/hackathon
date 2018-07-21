@@ -114,8 +114,8 @@ $('.carousel-control.right').click(function(e) {
   $(window).scroll(function () {
     navScroll();
       if ($(this).scrollTop() > 80) {
-        $(".lista-collapse").css("background-color", '#003296');
-        $(".menu-label").css("color", '#003296');
+        $(".lista-collapse").css("background-color", '#b12f2f');
+        $(".menu-label").css("color", '#b12f2f');
         $("#abre-menu-topo").addClass("rspv-menu");
       } else {
         $(".lista-collapse").css("background-color", '#a4a4a4');

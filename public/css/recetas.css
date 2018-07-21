@@ -145,7 +145,7 @@
   bottom  : 0;
   max-width:40px;
   height  : 1px;
-  border-bottom: 4px solid #003296;
+  border-bottom: 4px solid #b12f2f;
   margin-top: 14px;
 }
 .parraf-var14{-family: 'Open Sans', sans-serif;
@@ -257,7 +257,7 @@
   width: 48px;
   height: 48px;
   border-radius: 4px;
-  background-color: #003296;
+  background-color: #b12f2f;
   box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.16);
   display: flex;
   justify-content: center;
@@ -278,7 +278,7 @@
   transition: all 1s;
 }
 .recetaDetalle-cont .slick-next:hover {
-  background-color:#003296;
+  background-color:#b12f2f;
 }
 .slick-prev, .slick-next {
   width: auto!important;
@@ -315,13 +315,13 @@
   width: 48px !important;
   height: 48px !important;
   border-radius: 4px !important;
-  background-color: #003296;
+  background-color: #b12f2f;
   box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.16);
   justify-content: center;
   align-items: center;
 }
 .recetas-recomendadas button:hover , .recetas-recomendadas button:focus{
-  background-color: #003296;
+  background-color: #b12f2f;
 }
 .recetas-recomendadas .slick-prev{
   visibility: hidden;
@@ -360,11 +360,11 @@
   width: 36px !important;
   height: 36px !important;
   border-radius: 2px !important;
-  background-color: #003296;
+  background-color: #b12f2f;
   box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.12);
 }
 .recetas-productos .slick-next:hover , .recetas-productos .slick-next:focus{
-  background-color: #003296;
+  background-color: #b12f2f;
 }
 .recetas-productos .slick-prev{
   width: 36px !important;
@@ -498,7 +498,7 @@
   width: 48px !important;
   height: 48px !important;
   border-radius: 4px !important;
-  background-color: #003296;
+  background-color: #b12f2f;
   box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.16);
   justify-content: center;
   align-items: center;
