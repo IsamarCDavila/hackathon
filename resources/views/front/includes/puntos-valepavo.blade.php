@@ -49,6 +49,7 @@
                             <div class="form-group" id="ciudad">
                               <select id="filtro_ciudad" class="selectpicker">
                                    <option>Seleccione ciudad</option>
+                                   <option>dsfhsdf</option>
                                </select>
                             </div>
                             <div class="form-group" id="distrito">
