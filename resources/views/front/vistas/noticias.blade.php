@@ -14,7 +14,7 @@ $title = 'Noticias - San Fernando';
   <div class="row cont-cabecera row-nomargin">
   <div class="main-text-cont">
     <h1 class="tit-cabecera">Noticias</h1>
-    <p class="parraf-cabecera">Todas las noticias relacionadas a San Fernando.</p>
+    <p class="parraf-cabecera">Todas las noticias relacionadas a Arequipa.</p>
   </div>
 </div>
 <div class="row content-hero row-nomargin footer-shadow">

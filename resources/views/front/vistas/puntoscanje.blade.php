@@ -62,9 +62,13 @@ $title = 'Puntos de canje - San Fernando';
       @include('front.includes.pie-links-valepavo')
       <script type="text/javascript">
         var puntos={!! $jsonPines !!};
+        console.log("puntos",puntos);
         var tipo_s = '';
       </script>
-
+      <script src="http://js.api.here.com/v3/3.0/mapsjs-core.js"
+        type="text/javascript" charset="utf-8"></script>
+      <script src="http://js.api.here.com/v3/3.0/mapsjs-service.js"
+        type="text/javascript" charset="utf-8"></script>
       <script src="js/cotizacion-timeline.js"></script>
       <script src="js/pavicar-modal.js"></script>
       <script src="js/jsonPuntos.js"></script>

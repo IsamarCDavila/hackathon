@@ -20,7 +20,7 @@ $title = 'Nosotros - San Fernando';
   <div class="cont-cabecera row row-nomargin">
       <div class="main-text-cont">
         <h1 class="tit-cabecera">Nosotros</h1>
-        <p class="parraf-cabecera">Desde hace más de 69 años venimos agrandando nuestra familia. Hoy, tú formas parte de ella.</p>
+        <p class="parraf-cabecera"></p>
       </div>
   </div>
   <div class="row section-familia">
